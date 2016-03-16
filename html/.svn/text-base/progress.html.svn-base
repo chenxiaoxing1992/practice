@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>关于网达</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="image/icon/favicon.ico.jpg" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/resolve.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/server.css">
+    <style>
+    h5,h3,h2,ul{padding:0px;margin:0px;}
+	h5{padding-bottom:5px;}
+	p{margin:0px;padding:0px;}
+    </style>
+</head>
+
+<body>
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 hidden-xs">
+				<img src="image/logo-header.png">
+			</div>
+			<div class="col-sm-6 hidden-xs">
+				<div class="row white-space">
+					<div class="col-sm-2 col-sm-offset-2"><a href="index.html">首页</a></div>
+					<div class="col-sm-2"><a href="product.html">产品</a></div>
+					<div class="col-sm-2">
+						<a href="solution.html">方案</a>
+					</div>
+					<div class="col-sm-2"><a href="service.html">服务</a></div>
+					<!--<div class="col-sm-2"><a href="company-notice.html">投资者</a></div>-->
+					<div class="col-sm-2"><a href="about-us.html" class="nav-active">关于网达</a></div>
+				</div>
+			</div>
+			<div class="col-xs-2 visible-xs relative">
+				<button class="absolute btn-nav btn"style="left:1px;top:2px;background-color: #fff">
+					<span class="glyphicon glyphicon-menu-hamburger"style="font-size:25px;"></span>
+				</button>
+			</div>
+
+			<div class="col-xs-5 visible-xs col-xs-offset-2"style="padding-top:10px;">
+				<img src="image/xs-logo.png">
+				<span class="font-700">网达软件</span>
+			</div>
+		</div>
+	</div>
+	</div>
+</nav>
+<!--小屏幕显示下拉菜单-->
+<div class="list-group absolute animate hidden-sm hidden-md z-index display-none"style="width:100%;height:248px;top:50px;">
+	<a href="index.html" class="list-group-item">
+		首页
+	</a>
+	<a href="product.html" class="list-group-item">产品</a>
+	<a href="solution.html" class="list-group-item">方案</a>
+	<a href="service.html" class="list-group-item">服务</a>
+	<!--<a href="company-notice.html" class="list-group-item">投资者</a>-->
+	<a href="about-us.html" class="list-group-item ">关于网达</a>
+</div>
+
+	<!--主体内容-->
+		<div class="container" style="margin-top: 70px;">
+			<div class="row about-top-botm">
+				<div class="col-sm-8 text-center">
+					<div class="col-sm-2 col-xs-4 no-lr-padding">
+						<div class="about-navbar">
+							<a href="about-us.html" class="font4">公司简介</a>
+							<span class="pull-right font6 hidden-xs">|</span>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-4 no-lr-padding">
+						<div class="about-navbar">
+							<a href="progress.html" class="font4-active">发展历程</a>
+							<span class="pull-right font6 hidden-xs">|</span>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-4 no-lr-padding">
+						<div class="about-navbar">
+							<a href="news-consult.html" class="font4">新闻资讯</a>
+							<span class="pull-right font6 hidden-xs">|</span>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-4 no-lr-padding">
+						<div class="about-navbar">
+							<a href="join-us.html" class="font4">加入我们</a>
+							<span class="pull-right font6 hidden-xs">|</span>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-4 no-lr-padding">
+						<div class="about-navbar">
+							<a href="contact-us.html" class="font4">联系我们</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<div class="container-fluid no-lr-padding">
+	<img src="image/about-lg.jpg" class="img-responsive" style="width: 100%; max-height: 293px;" />
+</div>
+		<div class="container" style="padding-top:70px;">
+			<div class="row"><!--row开始-->
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2016</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>公司通过主板发审委审核</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2015</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>成立杭州分部</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>运营平台升级为POMS+VOMS</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>视音频处理规模化商用</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>4G集成播控方案核心提供商</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>拓展电子出版行业市场</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2014</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>OTT应用发行规模化商用</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>加深全国化业务发展，重庆分部成立</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>澎湃新闻项目得到市场好评</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>客户端中间件技术创新者</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2013</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>加深全国化业务发展，北京分部成立</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>通过CMMI4资质认证</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>开拓湖南、湖北市场</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>多屏互动、多屏融合领先市场</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2012</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>成立合肥网达子公司</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>全国化业务发展，广州分部成立</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>通过CMMI3、ISO27001、ISO9001等资格认证</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>获得上海市软件和集成电路产业发展专项扶持</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>形成新媒体产业领域的首发优势</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>中国联通手机电视业务核心平台提供商及服务支撑方</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>向移动互联网其他业务领域，金融保险领域业务深入发展</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2011</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>率先进行无线城市项目建设</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>获得高新科技企业认证</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>3G集成播控解决方案提供商，服务于广电媒体领域</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>中国电信天翼视讯手机电视平台提供商及服务支撑方</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>中国移动视频基地手机视频核心平台提供商及服务支撑方</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>客户端中间件产品适配了智能机、功能机全面多平台终端</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2010</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>进入移动互联网视频业务领域</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>获得上海市服务业引导资金重点扶持</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>获得软件企业认定</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>致力于核心产品OMS、WRP深度研发</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+
+					<div class="col-sm-12"><!--col-sm-12开始-->
+						<div class="col-sm-2 col-xs-3">
+							<div class="left">
+								<h3 class="blue text-center">2009</h3>
+							</div>
+						</div>
+						<div class="col-sm-10 col-xs-9"style="border-left:1px dotted #3399ff;">
+							<div class="right font4">
+								<ul>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>上海网达软件股份有限公司成立</p>
+									<p><i class="glyphicon glyphicon-leaf btn-xs" style="color: #444;"></i>公司落户于上海浦东金桥软件园(全国视频创新园区)</p>
+								</ul>
+							</div>
+						</div>
+					</div><!--col-sm-12结束-->
+					
+			</div><!--row结束-->
+		</div><!--container结束-->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 padding-left">
+						<div class="panel panel-default">
+							<div class="panel-heading">产品</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="product.html" class="block">客户端中间件</a>
+									<a href="pro-operation-manage.html" class="block">运营管理系统</a>
+									<a href="pro-fusion-media.html" class="block">融合媒资平台</a>
+									<a href="pro-audio-vedio.html" class="block">视音频处理</a>
+									<a href="pro-digital.html" class="block">数字营销分析</a>
+								</div>
+								<div class="col-sm-6 col-xs-6">
+									<!--     <a href="#"class="block">关于我们</a>
+                                     <a href="#"class="block">友情连接</a>
+                                     <a href="#"class="block">友情连接</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">方案</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-5 col-xs-5">
+									<a href="solution.html" class="block">新闻</a>
+									<a href="solution-audio-vedio.html" class="block">视音频</a>
+									<a href="solution-elec-publishing.html" class="block">电子出版</a>
+									<a href="solution-inte-broadcast.html" class="block">集成播控</a>
+									<a href="solution-business.html" class="block">商业智能</a>
+								</div>
+								<div class="col-sm-7 col-xs-7">
+									<a href="solution-mar-promotion.html" class="block">营销推广</a>
+									<a href="solution-online-education.html" class="block">在线教育</a>
+									<a href="solution-multi-screen.html" class="block">多屏互动</a>
+									<a href="solution-OTT.html" class="block">OTT应用发行</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">关于网达</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="about-us.html" class="block ">公司简介</a>
+									<a href="progress.html" class="block ">发展历程</a>
+									<a href="news-consult.html" class="block ">新闻资讯</a>
+									<a href="contact-us.html" class="block ">联系我们</a>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-2 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">加入我们</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="recruit.html" class="block ">社会招聘</a>
+									<a href="school-recruit.html" class="block ">校园招聘</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading"><img src="image/icon/Phone.png" style="opacity: 0.8; width: 25px; height: 25px;"></div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12 white-space">
+									<a href="#"class="block ">上海市浦东新区新金桥路27号13号楼</a>
+									<a href="#"class="block ">电话：(+86)&nbsp;021-50301821</a>
+									<a href="#"class="block ">传真：(+86)&nbsp;021-50301863</a>
+									<a href="#"class="block ">邮编：201206</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background-color:#b5bdc7;padding:15px 0px;line-height:15px;">
+				<p class="text-center" >© 2009-2016 上海网达软件股份有限公司 版权所有 沪ICP备 10042738号-1</p>
+			</div>
+		</footer>
+
+
+</body>
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

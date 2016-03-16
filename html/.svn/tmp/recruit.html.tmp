@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta name="description" content="网达软件——叁网融合应用软件的行业领跑者上海网达软件股份有限公司总部位于风景优美,办公环境一流的上海浦东金桥文化产业园OfficePark13号楼">
+    <meta name="keywords" content="网达软件,上海网达">
+    <meta name="Author" content="上海网达软件股份有限公司">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>上海网达软件股份有限公司</title>
+    <link href="image/icon/favicon.ico.jpg" rel="icon" type="image/x-icon" />
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- <link rel="stylesheet" href="bootstrap/css/font-awesome.css" /> -->
+    <link rel="stylesheet" href="css/resolve.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <style type="text/css">
+        @media screen and (max-width: 768px){
+        ol{margin-left: 15px; margin-right: 15px;}
+        }
+    </style>
+</head>
+<body style="letter-spacing: 1px;">
+    <header>
+        <div>
+            <!--#include file="head.shtml"-->
+        </div>
+    </header>
+    <!--导航-->
+           <nav class="navbar navbar-default navbar-fixed-top">
+                 <div class="container">
+                    <div class="row">
+                           <div class="col-sm-6 hidden-xs">
+                               <img src="image/logo-header.png">
+                           </div>
+                            <div class="col-sm-6 hidden-xs">
+                               <div class="row white-space">
+                                   <div class="col-sm-2"><a href="index.html">首页</a></div>
+                                   <div class="col-sm-2"><a href="product.html">产品</a></div>
+                                    <div class="col-sm-2"><!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                     发布服务<span class="caret"></span>
+                                   </a>
+                                   <ul class="dropdown-menu">
+                                     <li><a href="#">...</a></li>
+                                     <li><a href="#">...</a></li>
+                                     <li><a href="#">...</a></li>
+                                   </ul> -->
+                                   <a href="solution.html">解决方案</a>
+                                   </div>
+                                   <div class="col-sm-2"><a href="service.html">服务</a></div>
+                                   <div class="col-sm-2"><a href="company-notice.html">投资者</a></div>
+                                   <div class="col-sm-2"><a href="about-us.html"class="nav-active">关于网达</a></div>
+                              </div>
+                           </div>
+                                   <div class="col-xs-2 visible-xs relative">
+                                       <button class="absolute btn-nav btn"style="left:1px;top:2px;">
+                                          <span class="glyphicon glyphicon-menu-hamburger"style="font-size:25px;"></span>
+                                       </button>
+                                   </div>
+
+                                   <div class="col-xs-5 visible-xs col-xs-offset-2"style="padding:13px 0px;">
+                                        <img src="image/xs-logo.png">
+                                        <span class="font-700">网达软件</span>
+                                    </div>
+                             </div>
+                    </div>
+                 </div>
+           </nav>
+           <!--小屏幕显示下拉菜单-->
+               <div class="list-group display-none absolute animate hidden-sm hidden-md z-index"style="width:100%;height:248px;border-bottom:1px solid #ccc;top:50px;">
+                     <a href="index.html" class="list-group-item">
+                      首页
+                     </a>
+                     <a href="product.html" class="list-group-item">产品</a>
+                     <a href="solution.html" class="list-group-item">解决方案</a>
+                     <a href="service.html" class="list-group-item">服务</a>
+                     <a href="company-notice.html" class="list-group-item">投资者</a>
+                     <a href="about-us.html" class="list-group-item ">关于网达</a>
+               </div>
+            <!--小屏幕结束-->   
+
+
+
+<div class="container-fluid" style="background: #f8f9fa;">
+    <div class="container" style="background: #f8f9fa;margin-top:70px;">
+        <div class="row" style="padding-top: 35px; padding-bottom: 10px;">
+            <div class="col-xs-4">
+                <span class="font3">社会招聘</span>
+            </div>
+            <div class="col-xs-8">
+                <div class="" style="text-align: right">
+                    <span><a href="recruit.html" class="font4-active">社会招聘</a></span>
+                    <span class="font4" style="padding-left: 20px; padding-right: 20px;">|</span>
+                    <span class="font4"><a href="school-recruit.html">校园招聘</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：Java开发工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>Java开发工程师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>研发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>本科以上学历，精通JAVA开发语言、熟练掌握Eclipse开发工具；</li>
+                        <li>熟悉html、xml、json等相关技术；</li>
+                        <li>有Eclipse RCP开发经验者优先考虑；</li>
+                        <li>有较强的学习能力；</li>
+                        <li>具有良好的表达和交流能力，较强的沟通能力，富有进取心；</li>
+                        <li>具有阅读相关技术需求文档能力</li>
+                        <li>具有一定的软件设计及文档编写能力；</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：JAVA系统工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>Android开发工程师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>研发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>计算机软件或相关专业；</li>
+                        <li>有移动互联网或Java web项目经验者优先； </li>
+                        <li>1年以上Android平台开发经验，精通Android开发平台及框架原理，了解常用的设计模式； </li>
+                        <li>Java基础扎实。熟悉Java反射、注解、多线程等开发技术；</li>
+                        <li>熟悉Android UI布局、界面适配，熟练掌握Activity、Service等组件开发，熟悉Android的通信机制、熟悉Sqlite数据库。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：JAVA系统工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>WEB前端开发工程师（HTML5)</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>开发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>2年及以上相关领域经验，精通HTML5技术，熟练掌握Javascript、HTML/HTML5/XML、CSS3、Ajax等前端开发技术，熟悉W3C标准；</li>
+                        <li>了解JQuery等Javascript开发架构和框架；</li>
+                        <li>熟悉http/xml/json/webservices/rest等网络通信技术，对网站及页面性能优化有一定认识和经验。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：音视频开发工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>音视频开发工程师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>开发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>计算机专业本科及以上学历，并具备一年以上视频开发相关工作经验；</li>
+                        <li>熟练掌握C语言，熟练掌握Linux或者Android/iOS等任意一种移动平台的软件开发；</li>
+                        <li>深入理解视音频编解码技术，了解H264/H265、AAC等标准与算法，了解MPEG-TS等封装格式；</li>
+                        <li>深入理解流媒体传输技术，熟悉HLS/RTMP/RTSP/RTP等协议；</li>
+                        <li>熟悉ffmpeg等常用开源多媒体框架，并能进行二次开发。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：C/C++开发工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>C/C++开发工程师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>开发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>2年以上C/C++相关工作经验，尤其是android ndk相关的开发经验；</li>
+                        <li>有开发HTML5客户端的经验，集成使用移动端前端框架技术开发Mobile APP界面和体验效果的应用；</li>
+                        <li>开发过PhoneGap andriod插件，了解数据安全，数据分析，移动支付相关的技术</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：IOS开发工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>IOS开发工程师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>研发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>计算机相关专业学历，二年以上iOS平台开发经验；擅于学习新的技能；</li>
+                        <li>熟悉Objective-c语言开发，熟悉CocoaTouch框架和iOS SDK底层实现机制，熟练使用XCode、InterfaceBuilder、Instruments等开发工具。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：高级云存储开发工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>高级云存储开发工程师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>服务器工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>本科及以上学历；</li>
+                        <li>两年以上C++/Java开发经验，精通多线程、socket等技术；</li>
+                        <li>熟悉hadoop或mongodb等云储存和云计算产品，有实际开发经验；</li>
+                        <li>极大的兴趣，热衷于高深技术的研究和开发，有良好的沟通和协作能力，能够承受新技术研发带来的压力。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：测试工程师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>测试工程师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>测试工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>大专及以上学历，3年以上开发测试经验；</li>
+                        <li>熟练应用java/php/python等语言及开发框架；</li>
+                        <li>对大型软件工程项目管理、持续集成、发布管理、自动化测试、工程流水线等有较深刻理解；</li>
+                        <li>熟练应用LP/selenium/bugzilla/testlink等工具，能做二次开发；</li>
+                        <li>学习能力强，有较强分析和解决问题的能力，具有较强逻辑思维能力和表达能力；</li>
+                        <li>工作积极主动，有强烈责任心和严谨工作作风，积极思考，良好的协作沟通能力和团队合作精神。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：数据库工程师（DBA)</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>数据库工程师（DBA)</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>数据库工程师（DBA)</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>大学本科及以上学历，计算机相关专业，1年数据分析相关工作经验；</li>
+                        <li>精通Oracle或Mysql数据库，熟练掌握Oracle或Mysql体系结构及常规Oracle或Mysql性能调优技能；</li>
+                        <li>熟练掌握数据分析体系架构、方法和相关数据建模知识、数据挖掘理论，熟练掌握大规模数据挖掘方面的常用方法及算法技巧等；</li>
+                        <li>有良好的数据分析意识和产品意识,能够从海量数据中发现有价值的规律； </li>
+                        <li>精通linxu/unix，精通shell/perl/Python其中一种脚本编写，基础扎实，编码过关，熟悉常用的算法和数据结构；</li>
+                        <li>责任心强，有良好的沟通能力和团队协作能力，对数据仓库建设熟练者或熟悉Hadoop的优先。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：项目经理</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>项目经理</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>开发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>大学本科以上学历，具有三年以上软件类项目工作经历，至少成功负责过二个以上软件项目的实施；</li>
+                        <li>具有JAVA开发及系统分析经验；</li>
+                        <li>对oracle等数据库有一定的应用经验；</li>
+                        <li>较强的动手能力，良好的分析问题和独立解决问题能力；</li>
+                        <li>有很强的学习能力及学习欲望，沟通表达能力强，有较好的服务意识；</li>
+                        <li>具备良好的语言表达能力和沟通能力，清晰的项目文档编制能力；</li>
+                        <li>富有团队协作精神、责任心强，善于自学并能够承受一定的工作压力。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：(EXCEL数据挖掘）数据分析</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>(EXCEL数据挖掘）数据分析</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>数据挖掘工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>本科以上学历，统计、应用数学和数据挖掘相关专业，辅修心理学为佳；</li>
+                        <li>1年以上网站运营或数据分析经验；</li>
+                        <li>熟练使用SQL、EXCEL或SPSS等网站数据分析处理工具，能够综合使用各种数理统计、数据分析、数据挖掘、制表绘图等软件进行图表、图像以及文字处理；</li>
+                        <li>优秀的数据分析能力和报告撰写能力，敏锐的观察力，解决问题能力；</li>
+                        <li>团队协作能力强，与其他部门沟通能力强。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：需求分析师</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>需求分析师</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>开发工程师</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>丰富的保险行业经验，熟悉产险业务；</li>
+                        <li>具备较好的IT项目管理理论体系及完备的需求分析理论体系；</li>
+                        <li>具备独立引导客户需求以及编写需求文档的能力；</li>
+                        <li>具备较好的演讲能力；</li>
+                        <li>善于沟通，亲和力强，能够快速与团队融合；</li>
+                        <li>具备较好的抗压能力并可接受适度的加班；</li>
+                        <li>2年及以上工作经验；</li>
+                        <li>了解企业级移动应用产品。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding-bottom: 30px; border-bottom: 1px solid #e6e6e6;">
+        <div class="row" style="padding-top: 40px; padding-bottom: 5px;">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h4 class="font3">职位：商务专员</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-4 col-xs-7 no-lr-padding">
+                    <p class="font5" style="padding: 0; margin: 0"><strong>职位名称：</strong>商务专员</p>
+                    <p style="padding: 0; margin: 0"><strong>职位类别：</strong>商务专员</p>
+                </div>
+                <div class="col-sm-8 col-xs-5 no-lr-padding">
+                    <p style="padding: 0; margin: 0"><strong>工作地点：</strong>上海</p>
+                    <p style="padding: 0; margin: 0"><strong>招聘渠道：</strong>上海</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 32px;">
+            <div class="col-sm-10 col-sm-offset-1 no-lr-padding">
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>工作职责：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周期的管理工作</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项目全周</li>
+                        <li>担任BI项目经理，负责BI项目全周期的管理工作负责BI项</li>
+                    </ol>
+                </div>
+                <div class="col-sm-2" style="padding-top: 3px; padding-right: 0;"><strong>岗位要求：</strong></div>
+                <div class="col-sm-10 font5">
+                    <ol class="no-lr-padding" style="line-height: 2em;">
+                        <li>本科及以上学历，计算机，通讯，电子，自动化，商务等专业毕业；</li>
+                        <li>具有1-2年投标，商务工作经验；</li>
+                        <li>熟悉运营商和行业大客户的招投标流程，有参与招投标工作经验；</li>
+                        <li>诚信，守诺，负责，勤奋，敬业，仔细，善于学习和经验总结；</li>
+                        <li>善于沟通，亲和力强，能够快速与团队融合；</li>
+                        <li>有良好的抗压性，能够满足紧急任务来临快速相应的要求，接受适度加班；</li>
+                        <li>良好的沟通，协调，团队协作能力；</li>
+                        <li>有丰富的文案书写，处理经验，熟练使用word，excel，ppt等办公软件。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>请将简历投递至邮箱：<span class="font8">jobs@wondertek.com.cn</span></p>
+            </div>
+        </div>
+    </section>
+</div>
+<!--footer脚底-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 padding-left">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">产品</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12">
+                                <a href="product.html" class="block">客户端中间件</a>
+                                <a href="pro-operation-manage.html" class="block">运营管理系统</a>
+                                <a href="pro-fusion-media.html" class="block">融合媒资平台</a>
+                                <a href="pro-audio-vedio.html" class="block">音视频处理</a>
+                                <a href="pro-digital.html" class="block">数字营销分析</a>
+                            </div>
+                            <div class="col-sm-6 col-xs-6">
+                                <!--     <a href="#"class="block">关于我们</a>
+                                 <a href="#"class="block">友情连接</a>
+                                 <a href="#"class="block">友情连接</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">解决方案</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-5 col-xs-5">
+                                <a href="solution.html" class="block">新闻</a>
+                                <a href="solution-audio-vedio.html" class="block">音视频</a>
+                                <a href="solution-elec-publishing.html" class="block">电子出版</a>
+                                <a href="solution-inte-broadcast.html" class="block">集成播控</a>
+                                <a href="solution-business.html" class="block">商业智能</a>
+                            </div>
+                            <div class="col-sm-7 col-xs-7">
+                                <a href="solution-mar-promotion.html" class="block">营销推广</a>
+                                <a href="solution-online-education.html" class="block">在线教育</a>
+                                <a href="solution-multi-screen.html" class="block">多屏互动</a>
+                                <a href="solution-OTT.html" class="block">OTT应用发行</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">关于网达</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12">
+                                <a href="about-us.html" class="block ">公司简介</a>
+                                <a href="progress.html" class="block ">发展历程</a>
+                                <a href="#" class="block ">新闻资讯</a>
+                                <a href="contact-us.html" class="block ">联系我们</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-2 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">加入我们</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12">
+                                <a href="recruit.html" class="block ">社会招聘</a>
+                                <a href="school-recruit.html" class="block ">校园招聘</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">&nbsp;</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12 white-space">
+                                <a href="#"class="block ">上海市浦东新区金桥路27号13号楼3层</a>
+                                <a href="#"class="block ">商务合作:marketing@wondertek.com.cn</a>
+                                <a href="#"class="block ">销售合作:salesg@wondertek.com.cn</a>
+                                <a href="#"class="block ">技术支持:support@wondertek.com.cn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color:#b5bdc7;padding:15px 0px;line-height:15px;">
+            <p class="text-center" >© 1998-2013 上海网达软件股份有限公司 版权所有 沪ICP备 10042738号-1</p>
+        </div>
+    </footer>
+    <!--引入基本js文件-->
+    <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!--header导航-->
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

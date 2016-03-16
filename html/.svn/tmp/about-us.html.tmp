@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta name="description" content="网达软件——叁网融合应用软件的行业领跑者上海网达软件股份有限公司总部位于风景优美,办公环境一流的上海浦东金桥文化产业园OfficePark13号楼">
+    <meta name="keywords" content="网达软件,上海网达">
+    <meta name="Author" content="上海网达软件股份有限公司">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>上海网达软件股份有限公司</title>
+    <link href="image/icon/favicon.ico.jpg" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- <link rel="stylesheet" href="bootstrap/css/font-awesome.css" /> -->
+    <link rel="stylesheet" href="css/resolve.css" />
+    <link rel="stylesheet" href="css/about.css" />
+</head>
+<body>
+
+     <!--导航-->
+       <nav class="navbar navbar-default navbar-fixed-top">
+                  <div class="container">
+                     <div class="row">
+                            <div class="col-sm-6 hidden-xs">
+                                <img src="image/logo-header.png">
+                            </div>
+                             <div class="col-sm-6 hidden-xs">
+                                <div class="row white-space">
+                                    <div class="col-sm-2"><a href="index.html">首页</a></div>
+                                    <div class="col-sm-2"><a href="product.html">产品</a></div>
+                                     <div class="col-sm-2"><!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                      发布服务<span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">...</a></li>
+                                      <li><a href="#">...</a></li>
+                                      <li><a href="#">...</a></li>
+                                    </ul> -->
+                                    <a href="solution.html">解决方案</a>
+                                    </div>
+                                    <div class="col-sm-2"><a href="service.html">服务</a></div>
+                                    <div class="col-sm-2"><a href="company-notice.html">投资者</a></div>
+                                    <div class="col-sm-2"><a href="about-us.html"class="nav-active">关于网达</a></div>
+                               </div>
+                            </div>
+                                    <div class="col-xs-2 visible-xs relative">
+                                        <button class="absolute btn-nav btn"style="left:1px;top:2px;background-color: #fff;"> 
+                                           <span class="glyphicon glyphicon-menu-hamburger"style="font-size:25px;"></span>
+                                        </button>
+                                    </div>
+                                    <div class="col-xs-5 visible-xs col-xs-offset-2"style="padding:13px 0px;">
+                                        <img src="image/xs-logo.png">
+                                        <span class="font-700">网达软件</span>
+                                    </div>
+                              </div>
+                     </div>
+                  </div>
+            </nav>
+            <!--小屏幕显示下拉菜单-->
+                <div class="list-group display-none absolute animate hidden-sm hidden-md z-index"style="width:100%;height:248px;top:50px;">
+                      <a href="index.html" class="list-group-item">
+                       首页
+                      </a>
+                      <a href="product.html" class="list-group-item">产品</a>
+                      <a href="solution.html" class="list-group-item">解决方案</a>
+                      <a href="service.html" class="list-group-item">服务</a>
+                      <a href="company-notice.html" class="list-group-item">投资者</a>
+                      <a href="about-us.html" class="list-group-item ">关于网达</a>
+                </div>
+             <!--小屏幕结束-->
+<div class="container" style="padding: 0; margin-top: 70px;">
+    <div class="row about-top-botm">
+        <div class="col-sm-8 text-center">
+            <div class="col-sm-2 col-xs-4 no-lr-padding">
+                <div class="about-navbar">
+                    <a href="about-us.html" class="font4-active">公司简介</a>
+                    <span class="pull-right font6 hidden-xs">|</span>
+                </div>
+            </div>
+            <div class="col-sm-2 col-xs-4 no-lr-padding">
+                <div class="about-navbar">
+                    <a href="progress.html" class="font4">发展历程</a>
+                    <span class="pull-right font6 hidden-xs">|</span>
+                </div>
+            </div>
+            <div class="col-sm-2 col-xs-4 no-lr-padding">
+                <div class="about-navbar">
+                    <a href="news-consult.html" class="font4">新闻资讯</a>
+                    <span class="pull-right font6 hidden-xs">|</span>
+                </div>
+            </div>
+            <div class="col-sm-2 col-xs-4 no-lr-padding">
+                <div class="about-navbar">
+                    <a href="join-us.html" class="font4">加入我们</a>
+                    <span class="pull-right font6 hidden-xs">|</span>
+                </div>
+            </div>
+            <div class="col-sm-2 col-xs-4 no-lr-padding">
+                <div class="about-navbar">
+                    <a href="contact-us.html" class="font4">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="image/about-lg.png" class="img-responsive" />
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3 class="font2 pad-top-botm">公司介绍</h3>
+        </div>
+        <div class="col-sm-12">
+
+            <div class="col-sm-6 font4 company-intro" style="padding-left: 0;">
+                <p>上海网达软件股份有限公司是一家为电信运营商、广电媒体及金融保险提供移动互联网及互联网软件产品和服务的高新技术企业和双软企业。</p>
+                <p>公司一直致力于核心软件的自主研发，形成了互联网业务运营管理系统、融合媒资管理系统、多格式多协议的视音频处理系统、全平台覆盖的客户端开发技术、数字营销推广等主要产品。并以此主要产品面向客户需求进行定制化方案及服务。</p>
+                <p>网达软件方案涉及新闻媒体、视音频、电子出版、集成播控、商业智能、营销推广、多屏互动、在线教育、应用发行等不同的行业领域；并提供针对移动互联的推广服务、承担营销策划的运营服务、基于专家团队的咨询服务、提供敏捷开发的定制服务、面向集成实施的运维。</p>
+                <p>上海网达软件股份有限公司注重产品质量和优质服务，本着“创新为本，进取为怀”的核心价值进行产品和市场的开拓，在业内享有较高的知名度。</p>
+            </div>
+            <div class="col-sm-6 no-lr-padding">
+                <img src="image/map.svg" class="img-responsive pull-right" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <h3 class="font2 pad-top-botm">资质荣誉</h3>
+            <div class="list-honor">
+                <ul class="no-lr-padding">
+                    <li>公司获得了软件企业、高新技术企业、上海市研发机构认证；</li>
+                    <li>公司拥有移动互联网软件领域专利、软件著作权、软件产品证书若干；</li>
+                    <li>中国移动视频基地技术类，服务类排名第一企业；</li>
+                    <li>2010年获得上海市服务引导资金重点扶植企业；</li>
+                    <li>2011获得高科技中小企业创新基金扶植；</li>
+                    <li>2012年上海市软件和集成电路产业发展专项资金立项</li>
+                    <li>2013年度上海市科技小巨人企业</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer脚底-->
+     <footer>
+         <div class="container">
+             <div class="row">
+                 <div class="col-sm-2 padding-left">
+                     <div class="panel panel-default">
+                         <div class="panel-heading">产品</div>
+                         <div class="panel-body hidden-xs">
+                             <div class="col-sm-12 col-xs-12">
+                                 <a href="product.html" class="block">客户端中间件</a>
+                                 <a href="pro-operation-manage.html" class="block">运营管理系统</a>
+                                 <a href="pro-fusion-media.html" class="block">融合媒资平台</a>
+                                 <a href="pro-audio-vedio.html" class="block">音视频处理</a>
+                                 <a href="pro-digital.html" class="block">数字营销分析</a>
+                             </div>
+                             <div class="col-sm-6 col-xs-6">
+                                 <!--     <a href="#"class="block">关于我们</a>
+                                  <a href="#"class="block">友情连接</a>
+                                  <a href="#"class="block">友情连接</a> -->
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-sm-3 padding">
+                     <div class="panel panel-default">
+                         <div class="panel-heading">解决方案</div>
+                         <div class="panel-body hidden-xs">
+                             <div class="col-sm-5 col-xs-5">
+                                 <a href="solution.html" class="block">新闻</a>
+                                 <a href="solution-audio-vedio.html" class="block">音视频</a>
+                                 <a href="solution-elec-publishing.html" class="block">电子出版</a>
+                                 <a href="solution-inte-broadcast.html" class="block">集成播控</a>
+                                 <a href="solution-business.html" class="block">商业智能</a>
+                             </div>
+                             <div class="col-sm-7 col-xs-7">
+                                 <a href="solution-mar-promotion.html" class="block">营销推广</a>
+                                 <a href="solution-online-education.html" class="block">在线教育</a>
+                                 <a href="solution-multi-screen.html" class="block">多屏互动</a>
+                                 <a href="solution-OTT.html" class="block">OTT应用发行</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-sm-2 padding">
+                     <div class="panel panel-default">
+                         <div class="panel-heading">关于网达</div>
+                         <div class="panel-body hidden-xs">
+                             <div class="col-sm-12 col-xs-12">
+                                 <a href="about-us.html" class="block ">公司简介</a>
+                                 <a href="progress.html" class="block ">发展历程</a>
+                                 <a href="#" class="block ">新闻资讯</a>
+                                 <a href="contact-us.html" class="block ">联系我们</a>
+                             </div>
+
+                         </div>
+                     </div>
+
+                 </div>
+                 <div class="col-sm-2 padding">
+                     <div class="panel panel-default">
+                         <div class="panel-heading">加入我们</div>
+                         <div class="panel-body hidden-xs">
+                             <div class="col-sm-12 col-xs-12">
+                                 <a href="recruit.html" class="block ">社会招聘</a>
+                                 <a href="school-recruit.html" class="block ">校园招聘</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class="col-sm-3 padding">
+                     <div class="panel panel-default">
+                         <div class="panel-heading">&nbsp;</div>
+                         <div class="panel-body hidden-xs">
+                             <div class="col-sm-12 col-xs-12 white-space">
+                                 <a href="#"class="block ">上海市浦东新区金桥路27号13号楼3层</a>
+                                 <a href="#"class="block ">商务合作:marketing@wondertek.com.cn</a>
+                                 <a href="#"class="block ">销售合作:salesg@wondertek.com.cn</a>
+                                 <a href="#"class="block ">技术支持:support@wondertek.com.cn</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div style="background-color:#b5bdc7;padding:15px 0px;line-height:15px;">
+             <p class="text-center" >© 1998-2013 上海网达软件股份有限公司 版权所有 沪ICP备 10042738号-1</p>
+         </div>
+     </footer>
+
+<!--引入基本js文件-->
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+     <!--header导航-->
+     <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

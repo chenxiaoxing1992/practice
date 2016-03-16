@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>教育</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="解决方案" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="解决方案_新闻(模板)" sketch:type="MSArtboardGroup" transform="translate(-839.000000, -109.000000)" stroke="#71BAFB">
+            <g id="教育" sketch:type="MSLayerGroup" transform="translate(840.000000, 110.000000)">
+                <circle id="base" sketch:type="MSShapeGroup" cx="40" cy="40" r="40"></circle>
+                <g id="icon" transform="translate(23.000000, 18.000000)" stroke-width="2" sketch:type="MSShapeGroup">
+                    <path d="M23.0102133,17.688228 L33.7199144,40.297597 C34.4268861,41.790093 33.6544607,43 31.9925801,43 L2.00741988,43 C0.346467746,43 -0.421494454,41.7787105 0.280085627,40.297597 L10.9897867,17.688228 L10.9897867,1 L23.0102133,1 L23.0102133,17.688228 Z" id="shape"></path>
+                    <path d="M7,1 L27,1" id="shape" stroke-linecap="square"></path>
+                    <path d="M7,27 L27,27" id="shape" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

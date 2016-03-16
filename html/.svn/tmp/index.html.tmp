@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="image/icon/favicon.ico.jpg" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+    h5,h3,h2,ul{padding:0px;margin:0px;}
+	h5{padding-bottom:5px;}
+	p{margin:0px;padding:0px;}
+    </style>
+</head>
+
+<body>
+	
+		<!--导航-->
+	   <nav class="navbar navbar-default navbar-fixed-top">
+				  <div class="container">
+				     <div class="row">
+					     	<div class="col-sm-6 hidden-xs">
+					     		<img src="image/logo-header.png">
+					     	</div>
+						     <div class="col-sm-6 hidden-xs">
+						     	<div class="row white-space">
+					        		<div class="col-sm-2"><a href="index.html"class="nav-active">首页</a></div>
+					        		<div class="col-sm-2"><a href="product.html">产品</a></div>
+			                         <div class="col-sm-2"><!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								      发布服务<span class="caret"></span>
+								    </a>
+								    <ul class="dropdown-menu">
+								      <li><a href="#">...</a></li>
+								      <li><a href="#">...</a></li>
+								      <li><a href="#">...</a></li>
+								    </ul> -->
+								    <a href="solution.html">解决方案</a>
+									</div>
+					        		<div class="col-sm-2"><a href="service.html">服务</a></div>
+					        		<div class="col-sm-2"><a href="case.html">案列</a></div>
+					        		<div class="col-sm-2"><a href="about-us.html">关于网达</a></div>
+					           </div>
+					        </div>
+									<div class="col-xs-2 visible-xs relative">
+							     		<button class="absolute btn-nav btn"style="left:1px;top:2px;"> 
+					                       <span class="glyphicon glyphicon-menu-hamburger"style="font-size:25px;"></span>
+					                    </button>
+							     	</div>
+						      </div>
+				     </div>
+				  </div>
+			</nav>
+			<!--小屏幕显示下拉菜单-->
+	    		<div class="list-group display-none absolute animate hidden-sm hidden-md z-index"style="width:100%;height:248px;border-bottom:1px solid #ccc;top:50px;">
+					  <a href="index.html" class="list-group-item">
+					   首页
+					  </a>
+					  <a href="product.html" class="list-group-item">产品</a>
+					  <a href="solution.html" class="list-group-item">解决方案</a>
+					  <a href="service.html" class="list-group-item">服务</a>
+					  <a href="case.html" class="list-group-item">社案列</a>
+					  <a href="about-us.html" class="list-group-item ">关于网达</a>
+				</div>
+
+				<!--banner图片-->
+				<div style="margin-top:70px;">
+				    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				        <!-- Indicators -->
+				        <ol class="carousel-indicators">
+				            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				        </ol>
+				        <!-- Wrapper for slides -->
+				        <div class="carousel-inner" role="listbox">
+				            <div class="item active">
+				                <img src="image/banner.png" class="center-block"style="min-height:180px;" alt="轮播图">
+				                <div class="carousel-caption">
+				                </div>
+				            </div>
+				            <div class="item">
+				                <img src="image/banner2.png" class="center-block"style="min-height:180px;" alt="轮播图1">
+				                <div class="carousel-caption">
+				                </div>
+				            </div>
+							<div class="item">
+								<img src="image/banner3.jpg" class="center-block"style="min-height:180px;" alt="轮播图1">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img src="image/banner4.jpg" class="center-block"style="min-height:180px;" alt="轮播图1">
+								<div class="carousel-caption">
+								</div>
+							</div>
+				            <!-- Controls -->
+				            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				                <span class="glyphicon glyphicon-chevron-left opacity-0" aria-hidden="true"></span>
+				                <span class="sr-only">pre</span>
+				            </a>
+				            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				                <span class="glyphicon glyphicon-chevron-right opacity-0" aria-hidden="true"></span>
+				                <span class="sr-only">Next</span>
+				            </a>
+				        </div>
+				    </div>
+				</div>
+	<!--首页内容-->
+	<!-- <div id="screen">
+		<div class="col-xs-2 visible-xs z-index absolute"style="color:#fff;font-size:20px;left:-5px;top:5px;">
+			<div class="pointer">
+				<span class="glyphicon glyphicon-remove"></span>
+			</div>
+
+		</div>	
+
+	</div> -->
+		<div class="container">
+			<!--第一行-->
+
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<div class="index-title">
+						<h2>主要产品</h2>
+						<p>基于五个主要产品提供移动互联网解决方案</p>
+					</div>
+				</div>
+				<div class="col-sm-12  hidden-xs">
+					<div class="pull-left pointer hover relative">
+						<div style="width:120px;margin-right:135px;height:180px;">
+						<img src="image/WRP.png"class="absolute"style="top:-18px;" alt="...">
+
+						<div class="text-center absolute"style="bottom:0px;">
+								<p class="blue font">WRP</p>
+							  	<p class="font-700">客户端中间件</p>
+							 </div> 
+						</div>	  
+					</div>
+					<div class="pull-left pointer hover relative">
+						<div style="width:120px;margin-right:135px;height:180px;">
+						<img src="image/OMS.png"class="img-responsive" alt="...">
+						<div class="text-center absolute"style="margin-top:25px;">
+								<p class="blue font">OMS</p>
+							  	<p class="font-700">运营管理系统</p>
+														  
+							 </div>  
+						</div>	 
+					</div>
+					<div class="pull-left pointer hover relative">
+						<div style="width:120px;margin-right:135px;height:180px;">
+						<img src="image/MAM.png"class="img-responsive" alt="...">
+						<div class="text-center absolute"style="margin-top:25px;">
+								<p class="blue font">MAM</p>
+							  	<p class="font-700">融合媒资平台</p>
+														  
+							 </div> 
+						</div>	  
+					</div>
+					<div class="pull-left pointer hover relative">
+						<div style="width:120px;margin-right:135px;height:180px;">
+								<img src="image/stp.png"class="img-responsive" alt="...">
+
+						<div class="text-center absolute"style="margin-top:25px;">
+								<p class="blue font">STP</p>
+							  	<p class="font-700">音视频处理</p>
+														  
+							 </div>  
+						</div>
+					
+					</div>
+					<div class="pull-left pointer hover relative">
+<<<<<<< .mine
+						<div style="width:120px;height:180px;">
+						<img src="image/dma.png"class="absolute" alt="..."style="top:15px;">
+=======
+						<div style="width:120px;height:160px;">
+						<img src="image/dma.png" class="img-responsive" alt="...">
+>>>>>>> .r15405
+
+						<div class="text-center absolute"style="margin-top:45px;bottom:-5px;">
+								<p class="blue font">DMA</p>
+							  	<p class="font-700">数字营销分析</p>
+														  
+							 </div>
+						</div>	   
+					</div>
+				
+
+				<!-- 	<div class="">
+						    <a href="#" class="">
+						      <img src="image/dma.png" alt="...">
+						    </a>
+							  <div class="font text-center">
+								<p>WRP</p>
+							  	<p>客户端中间件</p>
+														  
+							 </div>  
+					</div>
+					<div class="">
+							<a href="#" class="thumbnail">
+						      <img src="image/dma.png" alt="...">
+						    </a>
+							  <div class="font text-center">
+								<p>WRP</p>
+							  	<p>客户端中间件</p>
+														  
+							 </div>  
+					</div>
+					<div class="">
+							<a href="#" class="thumbnail">
+						      <img src="image/dma.png" alt="...">
+						    </a>
+							  <div class="font text-center">
+								<p>WRP</p>
+							  	<p>客户端中间件</p>
+														  
+							 </div>  
+					</div>
+					<div class="">
+							<a href="#" class="thumbnail">
+						      <img src="image/dma.png" alt="...">
+						    </a>
+							  <div class="font text-center">
+								<p>WRP</p>
+							  	<p>客户端中间件</p>
+														  
+							 </div>  
+					</div>
+					<div class="">
+							<a href="#" class="thumbnail">
+						      <img src="image/dma.png" alt="...">
+						    </a>
+							  <div class="font text-center">
+								<p>WRP</p>
+							  	<p>客户端中间件</p>
+														  
+							 </div>  
+					</div> -->
+				</div>
+				<div class="clear"style="height:300px;">
+				<div class="col-sm-12 index-p-long">
+<<<<<<< .mine
+					<div class="col-sm-12"style="padding:0px 100px;">
+=======
+					<div class="col-sm-8 col-sm-offset-2">
+>>>>>>> .r15405
+						<section>
+						<p>
+							<strong>WRP（Wonder Runtime Platform）</strong>：<br>是一套面向企业移动应用开发、运行、管理的平台，针对目前移动互联网多终端、多系统的特点，该平台提供便捷、高效的应用开发，通过对底层操作系统和硬件类型差异的屏蔽，实现终端应用“一次开发、多平台/多终端适用”
+						</p>
+						<div class="text-center" style="margin-top:10px;font-size:20px;">
+							<ul>
+								<div class="col-sm-3">
+									 <li class="pull-left">运营所需而变</li>
+								</div>
+								<div class="col-sm-3">
+									 <li class="pull-left">支持多屏终端</li>
+								</div>	
+								<div class="col-sm-3">
+									<li class="pull-left">过亿用户</li>
+								</div>		
+								<div class="col-sm-3">
+									<li class="pull-left">多角色协同</li>
+								</div>	
+							</ul>
+							<div class="clear"></div>
+						</div>
+
+						</section>
+					</div>
+				</div>
+
+				<div class="col-sm-12 index-p-long1 display-none">
+<<<<<<< .mine
+					<div class="col-sm-12">
+=======
+					<div class="col-sm-8 col-sm-offset-2">
+>>>>>>> .r15405
+						<section>
+						<p>
+							<strong>OMS全称为(Operating Management </strong>System）：运营管理系统OMS是一套应用于互联网的多媒体内容运营管理系统，用于实现大规模、高并发、跨地域的移动互联网多媒体海量内容的组织运行和包装，以及多屏多门户的统一发布和管理。通过OMS实现业务流程化、清晰化、高效化运营，满足全国性、区域性、分布式、大容量、高并发的各类运营要求。OMS可以细致入微得实现互联网+文化品牌的互联网运营。该产品全面运用于网达软件客户的大型商用系统中。
+						</p>
+						<div>
+							<ul>
+								<div class="col-sm-3">
+									 <li class="pull-left">运营所需而变</li>
+								</div>
+								<div class="col-sm-3">
+									 <li class="pull-left">支持多屏终端</li>
+								</div>	
+								<div class="col-sm-3">
+									<li class="pull-left">过亿用户</li>
+								</div>		
+								<div class="col-sm-3">
+									<li class="pull-left">多角色协同</li>
+								</div>	
+							</ul>
+						</div>
+						</section>
+					</div>
+				</div>
+
+				<div class="col-sm-12 index-p-long2 display-none">
+					<div class="col-sm-12">
+						<section>
+						<p>
+							<strong>MAM全称为(Media Assets Management)</strong>：融合媒资系统，是一套面向多格式内容转化、海量内容存储、内容在线制作、多内容提供方管理的媒资内容管理系统。网达软件媒资系统覆盖从内容源片上传、入库、审核、加工、发布、分发的完整内容管理流程，具备采集快、容量大、调度好、管理易、多点分发、在线制作等特点。对于内容提供商来讲，是新媒体时代的媒资管理利器。
+						</p>
+						<div>
+							<ul>
+								<div class="col-sm-3">
+									 <li class="pull-left">运营所需而变</li>
+								</div>
+								<div class="col-sm-3">
+									 <li class="pull-left">支持多屏终端</li>
+								</div>	
+								<div class="col-sm-3">
+									<li class="pull-left">过亿用户</li>
+								</div>		
+								<div class="col-sm-3">
+									<li class="pull-left">多角色协同</li>
+								</div>	
+							</ul>
+						</div>
+						</section>
+					</div>
+				</div>
+
+				<div class="col-sm-12 index-p-long3 display-none">
+					<div class="col-sm-8 col-sm-offset-2">
+						<section>
+						<p>
+							<strong>STP全称为(Streaming Transcoding Process): </strong>视音频处理系统是针对直播、点播业务进行头端接入、集中转码、高效分发、终端播放的视音频处理软件。实现了高质量、高性能、高安全的实时编转码；提供于云端的视频处理能力平台；支持一源多屏（机顶盒、手机、PAD和PC终端）的多终端支持。面对不同的市场要求提供可灵活配置的软硬件方案。实现了4K、H265等业界领先技术。在“互动网+”时代，面向广电、互联网视频、政府机构帮助企事业快速实现基于视音频内容的产品开发、文化品牌、服务能力的建设。
+						</p>
+						<div>
+							<ul>
+								<div class="col-sm-3">
+									 <li class="pull-left">运营所需而变</li>
+								</div>
+								<div class="col-sm-3">
+									 <li class="pull-left">支持多屏终端</li>
+								</div>	
+								<div class="col-sm-3">
+									<li class="pull-left">过亿用户</li>
+								</div>		
+								<div class="col-sm-3">
+									<li class="pull-left">多角色协同</li>
+								</div>	
+							</ul>
+						</div>
+						</section>
+					</div>
+				</div>
+
+
+				<div class="col-sm-12 index-p-long4 display-none">
+					<div class="col-sm-8 col-sm-offset-2">
+						<section>
+						<p>
+							<strong>DMA全称为(Data Marketing Analysis)</strong>：数字营销分析系统，为企业提供可分析的数字营销平台进行移动互联网下的营销活动管理、多渠道数字化推广、以及营销效果分析。本平台通过数据分析监控活动并随时调整活动，在推广阶段通过各个分散的推广数据进行统一管理，实现渠道的统一分析管理。通过互联网进行营销推广也是企业市场致胜的法宝，网达软件的DMA系统结合网达软件的其他产品可为客户提供更健康、更具备分析能力的互联网数字化营销平台。
+						</p>
+						<div>
+							<ul>
+								<div class="col-sm-3">
+									 <li class="pull-left">运营所需而变</li>
+								</div>
+								<div class="col-sm-3">
+									 <li class="pull-left">支持多屏终端</li>
+								</div>	
+								<div class="col-sm-3">
+									<li class="pull-left">过亿用户</li>
+								</div>		
+								<div class="col-sm-3">
+									<li class="pull-left">多角色协同</li>
+								</div>	
+							</ul>
+						</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--第二行-->
+		<div class="row text-center">
+			<div class="col-sm-12 text-center">
+				<div class="index-title">
+					<h2>解决方案</h2>
+					<p>面向运营商、广电媒体、金融保险提供移动互联网新媒体领域整体解决方案</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class="col-sm-4">
+						    <div href="#" class="thumbnail">
+						      <img src="image/news.png" alt="...">
+						      <div class="caption">
+									新闻						  
+							 </div>  
+						    </div>
+							  
+				</div>
+
+				<div class="col-sm-4">
+						   <div href="#" class="thumbnail">
+						      <img src="image/music.png" alt="...">
+						      <div class="caption">
+									音视频						  
+							 </div>  
+						    </div>
+				</div>
+
+				<div class="col-sm-4">
+						   <div href="#" class="thumbnail">
+						      <img src="image/electronic.png" alt="...">
+						      <div class="caption">
+									电子出版						  
+							 </div>  
+						    </div>
+				</div>
+			</div>
+			<div class="col-sm-12">		
+				<div class="col-sm-4">
+						    <div href="#" class="thumbnail">
+						      <img src="image/Integrated.png" alt="...">
+						      <div class="caption">
+									集成播控						  
+							 </div>  
+						    </div>
+				</div>
+
+				<div class="col-sm-4">
+						   <div href="#" class="thumbnail">
+						      <img src="image/business.png" alt="...">
+						      <div class="caption">
+									商业智能						  
+							 </div>  
+						    </div>
+				</div>
+
+				<div class="col-sm-4">
+						    <div href="#" class="thumbnail">
+						      <img src="image/marketing.png" alt="...">
+						      <div class="caption">
+									营销推广						  
+							 </div>  
+						    </div>
+				</div>
+			</div>	
+			<div class="col-sm-12">
+				<div class="col-sm-4">
+						   <div href="#" class="thumbnail">
+						      <img src="image/online-education.png" alt="...">
+						      <div class="caption">
+									在线教育						  
+							 </div>  
+						    </div>
+				</div>
+
+				<div class="col-sm-4">
+						    <div href="#" class="thumbnail">
+						      <img src="image/screen.png" alt="...">
+						      <div class="caption">
+									多屏互动						  
+							 </div>  
+						    </div>
+				</div>
+				<div class="col-sm-4">
+						 <div href="#" class="thumbnail">
+						      <img src="image/OTT.png" alt="...">
+						      <div class="caption">
+									OTT应用开发						  
+							 </div>  
+						    </div>
+				</div>
+			</div>
+		</div><!--第二行结束-->
+		<!--第三行开始-->
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<div class="index-title">
+					<h2 class="underline"style="padding-bottom:30px;">公司动态</h2>
+				</div>	
+			</div>
+			<div class="news">
+				<div class="col-sm-6">
+					<section>
+						<h3 class="underline"><strong style="border-bottom:2px solid #349aff;font-weight:600;padding-bottom:5px;">新闻资讯</strong></h3>
+						<div class="overflow-height">
+						<div class="list-group">
+							<div class="detal">
+								<h3 class="font-700">上海网达等7家公司IPO申请于27日上会</h3>
+								<p style="height:120px;overflow-y:hidden;margin-top:15px;text-indent:32px;">证监会消息，证监会将于1月27日审核北京长久物流股份有限公司、江苏花王园艺股份有限公司、辰欣药业股份有限公司、正平路桥建设股份有限公司、广西广播电视信息网络股份有限公司、广东超讯通信技术股份有限公司、上海网达软件股份有限公司等7公司的IPO申请。
+
+								</p>
+								<a href="###"class="block"style="padding:15px 0px;"><span class="glyphicon glyphicon-plus-sign orange padding-lr"></span><b class="blue">阅读详情</b></a>	
+							</div>
+
+							<a href="#"class="list-group-item">
+
+								<span class="block pull-left">上海网达签约咪咕内容云服务平台流量服务工程业务质量软件</span>
+								<span class="block text-right">2016-1-15</span>
+							</a>	
+							<a href="#"class="list-group-item">
+
+								<span class="block pull-left">上海网达软件签约咪咕数媒广告平台</span>
+								<span class="block text-right">2016-1-13</span>
+							</a>	
+							<!-- <a href="#"class="list-group-item">
+								<span class="block pull-left">力争成为数据价值挖掘的行业专家</span>
+								<span class="block text-right">2016-01-10</span>
+							</a>	
+							<a href="#"class="list-group-item">
+								<span class="block pull-left">力争成为数据价值挖掘的行业专家</span>
+								<span class="block text-right">2016-01-10</span>
+							</a>	
+							<a href="#"class="list-group-item">
+								<span class="block pull-left">力争成为数据价值挖掘的行业专家</span>
+								<span class="block text-right">2016-01-10</span>
+							</a>	 -->
+						</div>
+						</div>
+					</section>	
+					<div class="text-right clear"style="margin-top:20px;"><a href="#"><span class=" orange glyphicon glyphicon-menu-right padding-lr"></span>更多</a></div>
+
+				</div>
+				<div class="col-sm-6">
+					<section class="">
+						<h3 class="underline"><strong style="border-bottom:2px solid #349aff;font-weight:600;padding-bottom:5px;">招聘信息</strong></h3>
+						<ul class="overflow-height">
+							<div class="col-sm-12 join">
+								<table class="table">
+									<thead class="text-center">
+										<tr>
+											<td>职位</td>
+											<td>学历</td>
+											<td>工作地点</td>
+											<td>发布日期</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Java开发工程师</td>
+											<td>本科|研究生</td>
+											<td>上海|合肥</td>
+											<td>2016年1月10号</td>
+										</tr>
+										<tr>
+											<td>Android开发工程师</td>
+											<td>本科|研究生</td>
+											<td>上海</td>
+											<td>2016年1月10号</td>
+										</tr>
+										<tr>
+											<td>WEB开发工程师</td>
+											<td>本科|研究生</td>
+											<td>上海</td>
+											<td>2016年1月10号</td>
+										</tr>
+										<tr>
+											<td>C/C++开发工程师</td>
+											<td>本科|研究生</td>
+											<td>上海|合肥</td>
+											<td>2016年1月10号</td>
+										</tr>
+										<tr>
+											<td>IOS开发工程师</td>
+											<td>本科|研究生</td>
+											<td>上海</td>
+											<td>2016年1月10号</td>
+										</tr>
+					
+										<tr>
+											<td>高级云存储开发</td>
+											<td>本科|研究生</td>
+											<td>上海</td>
+											<td>2016年1月10号</td>
+										</tr>
+										<tr>
+											<td>需求分析师</td>
+											<td>本科|研究生</td>
+											<td>上海</td>
+											<td>2016年1月10号</td>
+										</tr>
+										<tr>
+											<td>数据库开发工程师</td>
+											<td>本科|研究生</td>
+											<td>上海</td>
+											<td>2016年1月10号</td>
+										</tr>
+										<tr>
+											<td>项目经理</td>
+											<td>本科|研究生</td>
+											<td>上海</td>
+											<td>2016年1月10号</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							
+							
+						</ul>
+					</section>
+					<div class="text-right clear"style="margin-top:25px;height:20px;"><a href="recruit.html"><span class="glyphicon glyphicon-menu-right orange padding-lr"></span>更多</a></div>
+
+				</div>
+			</div>
+
+		</div>
+
+		</div><!--内容尾部-->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 padding-left">
+						<div class="panel panel-default">
+							<div class="panel-heading">产品</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="product.html" class="block">客户端中间件</a>
+									<a href="pro-operation-manage.html" class="block">运营管理系统</a>
+									<a href="pro-fusion-media.html" class="block">融合媒资平台</a>
+									<a href="pro-audio-vedio.html" class="block">音视频处理</a>
+									<a href="pro-digital.html" class="block">数字营销分析</a>
+								</div>
+								<div class="col-sm-6 col-xs-6">
+									<!--     <a href="#"class="block">关于我们</a>
+                                        <a href="#"class="block">友情连接</a>
+                                        <a href="#"class="block">友情连接</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">解决方案</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-5 col-xs-5">
+									<a href="solution.html" class="block">新闻</a>
+									<a href="solution-audio-vedio.html" class="block">音视频</a>
+									<a href="solution-elec-publishing.html" class="block">电子出版</a>
+									<a href="solution-inte-broadcast.html" class="block">集成播控</a>
+									<a href="solution-business.html" class="block">商业智能</a>
+								</div>
+								<div class="col-sm-7 col-xs-7">
+									<a href="solution-mar-promotion.html" class="block">营销推广</a>
+									<a href="solution-online-education.html" class="block">在线教育</a>
+									<a href="solution-multi-screen.html" class="block">多屏互动</a>
+									<a href="solution-OTT.html" class="block">OTT应用发行</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">关于网达</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="about-us.html" class="block ">公司简介</a>
+									<a href="about-us.html" class="block ">相关荣誉</a>
+									<a href="contact-us.html" class="block ">联系我们</a>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-2 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">加入我们</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="recruit.html" class="block ">社会招聘</a>
+									<a href="school-recruit.html" class="block ">校园招聘</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">400-400-1234</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12 white-space">
+									<a href="#"class="block ">上海市浦东新区金桥路27号13号楼3层</a>
+									<a href="#"class="block ">商务合作:marketing@wondertek.com.cn</a>
+									<a href="#"class="block ">销售合作:salesg@wondertek.com.cn</a>
+									<a href="#"class="block ">技术支持:support@wondertek.com.cn</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background-color:#b5bdc7;padding:15px 0px;line-height:15px;">
+				<p class="text-center" >© 1998-2013 上海网达软件股份有限公司 版权所有 沪ICP备 10042738号-1</p>
+			</div>
+		</footer>
+</body>
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>DMA</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-1037.000000, -1080.000000)" id="DMA">
+            <g sketch:type="MSLayerGroup" transform="translate(1037.000000, 1080.000000)">
+                <rect id="area" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="118" height="118"></rect>
+                <g id="数字分析" transform="translate(3.000000, 12.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-248" fill="#555555" x="37" y="90" width="38" height="4"></rect>
+                    <rect id="Rectangle-247" fill="#555555" x="49" y="82" width="14" height="8"></rect>
+                    <rect id="Rectangle-244" fill="#555555" x="0" y="0" width="112" height="82" rx="2"></rect>
+                    <rect id="Rectangle-245" fill="#FFFFFF" x="4" y="4" width="104" height="63"></rect>
+                    <rect id="Rectangle-245" fill="#FFFFFF" x="4" y="71" width="104" height="7"></rect>
+                    <rect id="Rectangle-239" fill="#555555" x="19" y="35" width="7" height="28"></rect>
+                    <rect id="Rectangle-239" fill="#555555" x="41" y="26" width="7" height="37"></rect>
+                    <rect id="Rectangle-239" fill="#555555" x="63" y="35" width="7" height="28"></rect>
+                    <rect id="Rectangle-239" fill="#555555" x="86" y="26" width="7" height="37"></rect>
+                    <path d="M11.6043003,45.2656472 L53.9014773,26.4656438 L45.9046705,23.2385348 L54.2349423,43.7709557 L56.6176618,49.6438733 L62.3513775,46.9433145 L103.888891,27.3793005 L98.7756998,16.5231833 L57.2381867,36.0871973 L65.3546219,39.2595562 L57.0243501,18.7271353 L54.693359,12.9817175 L49.0275434,15.5000262 L6.7303663,34.3000297 L11.6043003,45.2656472 L11.6043003,45.2656472 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M9.97965561,41.6104414 L52.2768327,22.8104379 L49.6112304,21.7347349 L57.9415022,42.2671558 L58.735742,44.224795 L60.6469806,43.3246088 L102.184494,23.7605948 L100.480097,20.141889 L58.9425837,39.7059031 L61.6480621,40.763356 L53.3177903,20.2309351 L52.5407932,18.3157958 L50.652188,19.1552321 L8.35501095,37.9552356 L9.97965561,41.6104414 L9.97965561,41.6104414 Z" id="Shape" fill="#555555"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,120 @@
+/*@media screen and (max-width:735px){
+    .bg1{
+        height:auto;
+        background-position: center top;
+        background-size:736px 292px;
+        background-image: url(../image/1.png);
+    }
+}
+
+<<<<<<< .mine
+/*.banner1{
+    height: 450px;
+ background: -webkit-linear-gradient(left, #3a48c5 , #5199f9);
+    background: -o-linear-gradient(right, #3a48c5, #5199f9); 
+    background: -moz-linear-gradient(right, #3a48c5, #5199f9); 
+    background: linear-gradient(to right, #3a48c5 , #5199f9);}
+.banner2{
+    background: -webkit-linear-gradient(left, #30a9ba , #50f7d6); 
+    background: -o-linear-gradient(right, #30a9ba , #50f7d6); 
+    background: -moz-linear-gradient(right, #30a9ba , #50f7d6); 
+    background: linear-gradient(to right, #30a9ba , #50f7d6);}
+.banner3{
+    background: -webkit-linear-gradient(left, #294583, #16a6d5); 
+    background: -o-linear-gradient(right, #294583, #16a6d5); 
+    background: -moz-linear-gradient(right, #294583, #16a6d5); 
+    background: linear-gradient(to right, #294583, #16a6d5);
+=======
+@media screen and (max-width:1068px){
+    .bg1{
+        height:450px;
+        background-position: center top;
+        background-size:1068px 452px;
+        background-image: url(../image/1.png);
+    }
+}
+>>>>>>> .r16313
+
+<<<<<<< .mine
+}*/
+=======
+@media screen and (min-width:1442px){
+    .bg1{
+        height:700px;
+        background-size:1900px 800px;
+        background-image: url(../image/1.png);
+    }
+}
+*/
+@media screen and (min-width:1442px){
+    .bg1{
+        height:700px;
+        background-image: url(../image/1.jpg) center;
+    }
+
+    .bg2{
+        height:700px;
+        background-image: url(../image/4.jpg) center;
+    }
+
+    .bg3{
+        height:700px;
+        background-image: url(../image/3.jpg) center;
+    }
+    .bg4{
+        height:700px;
+        background-image: url(../image/2.jpg) center;
+    }
+    .bg5{
+        height:700px;
+        background-image: url(../image/5.jpg) center;
+    }
+}
+
+>>>>>>> .r16313
+.list-group-item{border:0px solid #ccc;}
+.bg1{
+  background:url(../image/1.jpg)no-repeat center;
+    height:580px;
+}
+.bg2{
+    background:url(../image/4.jpg)no-repeat center;
+    height:580px;
+   /* max-width: 100%;*/
+    /*height: auto;*/
+}
+.bg3{
+    height:580px;
+    background:url(../image/3.jpg)no-repeat center;
+    /*height: auto;*/
+}
+.bg4{
+    height:580px;
+    background:url(../image/2.jpg)no-repeat center;
+/*    max-width: 100%;
+*/    /*height: auto;   */
+}
+.bg5{
+     height:580px;
+    background:url(../image/5.jpg)no-repeat center;
+    /*max-width: 100%;*/
+    /*height: auto;   */
+}
+.p{
+    font-size:18px;
+    line-height: 30px;
+}
+.h3_{
+    font-size: 28px;
+    margin-bottom:20px;
+}
+@media screen and (max-width:735px){
+   .p{
+       font-size:16px;
+       line-height: 30px;
+   }
+   .h3_{
+    font-size: 23px;
+    margin-bottom:15px;
+    }
+}

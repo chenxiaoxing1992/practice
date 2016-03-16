@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>MAM</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="客户端中间件案例1" sketch:type="MSArtboardGroup" transform="translate(-607.000000, -77.000000)" fill="#919191">
+            <g id="SecondNav" sketch:type="MSLayerGroup" transform="translate(0.000000, 67.000000)">
+                <g id="MAM" transform="translate(607.000000, 10.000000)" sketch:type="MSShapeGroup">
+                    <path d="M17,3.00135749 C17,1.34375352 18.3345109,0 20.0013575,0 L46.9986425,0 C48.6562465,0 50,1.33451092 50,3.00135749 L50,29.9986425 C50,31.6562465 48.6654891,33 46.9986425,33 L20.0013575,33 C18.3437535,33 17,31.6654891 17,29.9986425 L17,3.00135749 Z M19,2.99824564 C19,2.4469298 19.4555207,2 19.9982456,2 L47.0017544,2 C47.5530702,2 48,2.45552075 48,2.99824564 L48,30.0017544 C48,30.5530702 47.5444793,31 47.0017544,31 L19.9982456,31 C19.4469298,31 19,30.5444793 19,30.0017544 L19,2.99824564 Z" id="shape"></path>
+                    <path d="M0,20.0013575 C0,18.3437535 1.33451092,17 3.00135749,17 L29.9986425,17 C31.6562465,17 33,18.3345109 33,20.0013575 L33,46.9986425 C33,48.6562465 31.6654891,50 29.9986425,50 L3.00135749,50 C1.34375352,50 0,48.6654891 0,46.9986425 L0,20.0013575 Z M2,19.9982456 C2,19.4469298 2.45552075,19 2.99824564,19 L30.0017544,19 C30.5530702,19 31,19.4555207 31,19.9982456 L31,47.0017544 C31,47.5530702 30.5444793,48 30.0017544,48 L2.99824564,48 C2.4469298,48 2,47.5444793 2,47.0017544 L2,19.9982456 Z" id="shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta name="description" content="网达软件——叁网融合应用软件的行业领跑者上海网达软件股份有限公司总部位于风景优美,办公环境一流的上海浦东金桥文化产业园OfficePark13号楼">
+    <meta name="keywords" content="网达软件,上海网达">
+    <meta name="Author" content="上海网达软件股份有限公司">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>上海网达软件股份有限公司</title>
+    <link href="image/icon/favicon.ico.jpg" rel="icon" type="image/x-icon" />
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+     <link rel="stylesheet" type="text/css" href="css/home.built.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- <link rel="stylesheet" href="bootstrap/css/font-awesome.css" /> -->
+    <link rel="stylesheet" href="css/resolve.css" />
+    <link rel="stylesheet" href="css/about.css" />
+</head>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 hidden-xs">
+                <img src="image/logo-header.png">
+            </div>
+            <div class="col-sm-6 hidden-xs">
+                <div class="row white-space">
+                    <div class="col-sm-2 col-sm-offset-2"><a href="index.html">首页</a></div>
+                    <div class="col-sm-2"><a href="product.html" class="nav-active">产品</a></div>
+                    <div class="col-sm-2">
+                        <a href="solution.html">方案</a>
+                    </div>
+                    <div class="col-sm-2"><a href="service.html">服务</a></div>
+                    <!--<div class="col-sm-2"><a href="company-notice.html">投资者</a></div>-->
+                    <div class="col-sm-2"><a href="about-us.html">关于网达</a></div>
+                </div>
+            </div>
+            <div class="col-xs-2 visible-xs relative">
+                <button class="absolute btn-nav btn"style="left:1px;top:2px;background-color: #fff">
+                    <span class="glyphicon glyphicon-menu-hamburger"style="font-size:25px;"></span>
+                </button>
+            </div>
+
+            <div class="col-xs-5 visible-xs col-xs-offset-2"style="padding-top:10px;">
+                <img src="image/xs-logo.png">
+                <span class="font-700">网达软件</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</nav>
+<!--小屏幕显示下拉菜单-->
+<div class="list-group absolute animate hidden-sm hidden-md z-index display-none"style="width:100%;height:248px;top:50px;">
+    <a href="index.html" class="list-group-item">
+        首页
+    </a>
+    <a href="product.html" class="list-group-item">产品</a>
+    <a href="solution.html" class="list-group-item">方案</a>
+    <a href="service.html" class="list-group-item">服务</a>
+    <!--<a href="company-notice.html" class="list-group-item">投资者</a>-->
+    <a href="about-us.html" class="list-group-item ">关于网达</a>
+</div>
+            <!--小屏幕结束-->   
+
+    <!--滚动导航start-->
+    <div class="second-nav marg-top bg-color">
+        <nav id="ac-familybrowser" class="ac-familybrowser" data-analytics-region="family browser">
+            <div class="ac-familybrowser-wrapper">
+                <ul class="ac-familybrowser-items">
+                    <li class="ac-familybrowser-item macbook macbook-space">
+                        <a class="ac-familybrowser-link" href="product.html">
+                            <figure class=""><img src="image/icon/zjj.svg"></figure>
+                            <span class="ac-familybrowser-label font5">客户端中间件</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook macbook-space">
+                        <a class="ac-familybrowser-link" href="pro-operation-manage.html">
+                            <figure class=""><img src="image/icon/yygl.svg"></figure>
+                            <span class="ac-familybrowser-label font5">运营管理系统</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook macbook-space">
+                        <a class="ac-familybrowser-link" href="pro-fusion-media.html">
+                            <figure class=""><img src="image/icon/meizi.svg"></figure>
+                            <span class="ac-familybrowser-label font5">融合媒资平台</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook macbook-space">
+                        <a class="ac-familybrowser-link" href="pro-audio-vedio.html">
+                            <figure class=""><img src="image/icon/ysp.svg"></figure>
+                            <span class="ac-familybrowser-label font5">视音频处理</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook macbook-space">
+                        <a class="ac-familybrowser-link" href="pro-digital.html">
+                            <figure class=""><img src="image/icon/szyx-selected.svg"></figure>
+                            <span class="ac-familybrowser-label font5 font-color-10">数字营销分析</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <div class="ac-familybrowser-paddles">
+                    <button class="ac-familybrowser-paddle-left" aria-hidden="true" disabled>
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                    </button>
+                    <button class="ac-familybrowser-paddle-right" aria-hidden="true" disabled>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--滚动导航end-->
+
+<div class="container main-content">
+    <section>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <div class="text-center"><img src="image/icon/szyx-selected.svg" class="sec-nav-pic" />
+                <h2 class="font1">数字营销分析</h2></div>
+                <p class="font4 botm-25" style="text-indent: 32px;">
+数字营销分析系统DMA(Data Marketing Analysis)，为企业提供可分析的数字营销平台进行移动互联网下的营销活动管理、多渠道数字化推广、以及营销效果分析。本平台通过数据分析监控活动并随时调整活动，在推广阶段整合分散的推广数据进行统一管理，实现渠道的统一分析管理。通过互联网进行营销推广也是企业市场致胜的法宝，网达软件的DMA系统结合其他产品可为客户提供更有效、更具备分析能力的互联网数字化营销平台。
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-sm-12 top-botm text-center">
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info inclue-active">
+                        <a href="#section-advan" class="font3-active">产品定位</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info">
+                        <a href="#section-global" class="font3">功能特点</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info">
+                        <a href="#section-style" class="font3">技术优势</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info">
+                        <a href="#section-cus" class="font3">典型投资者</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-advan">
+        <div class="row">
+            <div class="col-sm-12 font4 add-botm-xian li-left clearfix" style="height: auto;">
+                <h3 class="font2 botm-25">产品定位</h3>
+                <div class="col-sm-12 no-lr-padding">
+                    <div class="col-sm-12 no-lr-padding">
+                        <h3 class="font3-active" style="margin-top: 0;">互联网化的数字推广</h3>
+                        <p class="font4">全面的渠道推广管理机制，提供面向手机应用商店、手机浏览器等互联网渠道推广的渠道商合作模式</p>
+                        <h3 class="font3-active" style="margin-top: 30px;">基于数据分析的营销策略</h3>
+                        <p class="font4">通过数据挖掘、内容分析等手段，完善用户标签体系，实现内容，用户，渠道之间精准匹配能力</p>
+                        <h3 class="font3-active" style="margin-top: 30px;">可扩展的广告接入能力</h3>
+                        <p class="font4">基于数字推广、数据分析能力，平台为客户提供可扩展的广告接入能力，实现平台业务的价值增值</p>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-12 no-lr-padding">
+                    <!--<h3 class="font3-active botm-10">手机客户端成为时代必备件</h3>
+                    <div class="col-sm-12 no-lr-padding">
+                        <div class="col-sm-3 col-xs-4 text-center">
+                            <div class="col-sm-12">
+                                <div class="botm-10"><img src="image/exam-such.png" width="70px" height="70"/></div>
+                                <p>选择何种既先进又安全的技术</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-4 text-center">
+                            <div class="col-sm-12">
+                                <div class="botm-10"><img src="image/exam-such.png" width="70px" height="70"/></div>
+                                <p>选择何种既先进又安全的技术</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-4 text-center">
+                            <div class="col-sm-12">
+                                <div class="botm-10"><img src="image/exam-such.png" width="70px" height="70"/></div>
+                                <p>选择何种既先进又安全的技术</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-4 text-center">
+                            <div class="col-sm-12">
+                                <div class="botm-10"><img src="image/exam-such.png" width="70px" height="70"/></div>
+                                <p>选择何种既先进又安全的技术</p>
+                            </div>
+                        </div>
+                    </div>-->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-global">
+        <div class="row">
+            <div class="col-sm-12 font4 add-botm-xian">
+                <h3 class="font2 botm-25">功能特点</h3>
+                <p class="fun-lg"><img src="image/szyx.png" class="img-responsive" /></p>
+                <ul class="font4">
+                    <li>平台推广方式：通过平台向目标用户发送业务消息的营销模式；集成短信、彩信、wappush等几种通道方式，
+                        支持三大运营商的短信、彩信网关接入，进行点播、群发等多种方式进行营销活动的数字营销平台</li>
+                    <li>渠道推广方式：通过各种渠道或者终端内置方式等做推广营销。管理对应的渠道商和渠道，对于客户端的SDK推广方式进行有效的安全措施，即方便整合，也保证安全</li>
+                    <li>互动类营销：提供给用户与用户之间、平台和用户之间的互动营销的方式，包括但不局限：通过WAP网站、客户端软件、WWW网站、点播码等方式进行分享营销；
+                        平台按用户参与度、关注度向用户下发相关产品、内容信息以及相关预告、优惠、活动等信息</li>
+                    <li>分析类营销：基于数据结果进行营销效果分析，针对不同的营销模式，统计分析业务数据，从而实现基于数据分析的针对性营销</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+    <section id="section-style">
+        <div class="row">
+            <div class="col-sm-12 font4 add-botm-xian">
+                <h3 class="font2 botm-25">技术优势</h3>
+                <div>
+                    <p class="font4">
+                    <div>
+                        <ul>
+                            <li>互联网门户营销推广方式多</li>
+                            <li>SDK安全机制高、推广渠道多、见效快</li>
+                            <li>数据分析能力强、基于数据的营销准</li>
+                            <li>活动策略积累多、方法多、技术响应快</li>
+                        </ul>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!--典型案例-->
+    <div class="container" id="section-cus">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="font2 botm-25">典型案例</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background: #f0f0f0;">
+        <div class="container" style="min-height: 150px;">
+            <div class="row">
+                <!--<div class="col-xs-12 text-center">
+                    <div class="font4">客户：<span class="company-name">中国移动咪咕视讯</span></div>
+                </div>-->
+            </div>
+            <div class="row" id="pro-menu">
+                <div class="col-sm-12 col-xs-12 text-center">
+                    <div class="pro-menu-btn col-sm-2 col-sm-offset-1 col-xs-6 active">
+                        <img src="image/pro-exam/mg.png"/>
+                    </div>
+                    <div class="pro-menu-btn col-sm-2 col-xs-6">
+                        <img src="image/pro-exam/zgyd.png"/>
+                    </div>
+                    <div class="pro-menu-btn col-sm-2 col-xs-6">
+                        <img src="image/pro-exam/zgdx.png"/>
+                    </div>
+                    <div class="pro-menu-btn col-sm-2 col-xs-6">
+                        <img src="image/pro-exam/htszcm.png"/>
+                    </div>
+
+                    <div class="pro-menu-btn col-sm-2 col-xs-6">
+                        <img src="image/pro-exam/tpybx.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="pro-content">
+       <div class="container" >
+            <div class="row exam">
+                <div class="col-sm-12 font4">
+                    <div class="col-sm-5 col-xs-12  typical-exam" style="padding-top: 110px;">
+                        <div class="col-xs-4">
+                            <img src="image/icon/mgsxyxpt.svg"/>
+                        </div>
+                        <div class="col-xs-8">
+                            <div class=" typical-exam-info">
+                                <h3 class="font2">咪咕视讯营销平台项目</h3>
+                                <p>咪咕视讯公司对营销特服号的统一资源平台，包括短信、彩信、WAPPUSH的单发、群发，可以设置一次性群发人物、周期性群发任务，包括群发任务的管理、营销活动资源使用统计等功能。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2 col-xs-12  typical-exam" style="padding-top: 110px;">
+                        <div class="col-xs-4">
+                            <img src="image/icon/mgsxtj.svg"/>
+                        </div>
+                        <div class="col-xs-8">
+                            <div class=" typical-exam-info">
+                                <h3 class="font2">咪咕视讯个性化推荐系统</h3>
+                                <p>为咪咕视讯建立统一的推荐引擎服务，支持多产品推荐，建立以内容、用户、协同过滤的推荐模型，寻找在合适的场景合适的时机通过合适的渠道把合适的内容推荐给合适的用户。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="display: none;">
+            <div class="row exam">
+                <div class="col-sm-12 font4">
+                    <div class="col-sm-5 col-xs-12 typical-exam" style="padding-top: 110px;">
+                        <div class="col-xs-4">
+                            <img src="image/icon/hjs.svg"/>
+                        </div>
+                        <div class="col-xs-8">
+                            <div class=" typical-exam-info">
+                                <h3 class="font2">和教授</h3>
+                                <p>为上海移动用户亲情奉献的集流量精确查询、超额提醒、流量控制、流量订购等功能于一身的专业手机流量软件。用户可实时知晓官方流量数据，防止流量超标，并能参与主题营销活动免费获流量礼包，由上海移动有限公司荣誉出品。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2 col-xs-12  typical-exam" style="padding-top: 110px;">
+                        <div class="col-xs-4">
+                            <img src="image/icon/WLAN.svg"/>
+                        </div>
+                        <div class="col-xs-8">
+                            <div class=" typical-exam-info">
+                                <h3 class="font2">WLAN运营平台统计分析子系统开发项目</h3>
+                                <p>网达软件为广东移动承建移动集团全国WLAN运营平台统计分析系统，采集分析全国WLAN相关数据，为各省提供WLAN经营分析报表。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="container"style="display: none;">
+            <div class="row exam">
+                <div class="col-sm-12 font4">
+                    <!--<h3 class="font3 text-center" style="padding-top: 40px; padding-bottom: 60px;">客户：中国移动咪咕视讯</h3>-->
+                    <div class="col-sm-10 col-sm-offset-1 col-xs-12  typical-exam" style="padding-top: 110px;">
+                        <div class="col-xs-3">
+                            <img src="image/icon/zgdxyxpt.svg" class="pull-right"/>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class=" typical-exam-info">
+                                <h3 class="font2">中国电信营销平台</h3>
+                                <p>针对电子渠道业务获取集团产品相关数据以及用户在电信类产品上的消费记录（如话费）等相关数据并进行分析，实现用户画像、个性化推荐的功能，以能力开放的形式提供给集体及各省使用。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="container"style="display: none;">
+            <div class="row exam">
+                <div class="col-sm-12 font4">
+                    <!--<h3 class="font3 text-center" style="padding-top: 40px; padding-bottom: 60px;">客户：中国移动咪咕视讯</h3>-->
+                    <div class="col-sm-10 col-sm-offset-1 col-xs-12  typical-exam" style="padding-top: 110px;">
+                        <div class="col-xs-3">
+                            <img src="image/icon/DBSTAR.svg" class="pull-right"/>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class=" typical-exam-info">
+                                <h3 class="font2">航天数字传媒营销门户系统</h3>
+                                <p>营销门户立足于五大维度，通过B2B2C的电商模式进行数字出版物的发行，如图书通过订阅式购物；数字音乐通过签名发行，数字视频授权播放，以及数字图书通过授权的客户端软件。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="container"style="display: none;">
+            <div class="row exam">
+                <div class="col-sm-12 font4">
+                    <!--<h3 class="font3 text-center" style="padding-top: 40px; padding-bottom: 60px;">客户：中国移动咪咕视讯</h3>-->
+                    <div class="col-sm-10 col-sm-offset-1 col-xs-12  typical-exam" style="padding-top: 110px;">
+                        <div class="col-xs-3">
+                            <img src="image/icon/tpybx.svg" class="pull-right"/>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class=" typical-exam-info">
+                                <h3 class="font2">集团EDW&ECIF系统持续改进项目</h3>
+                                <p>网达软件为中国太平洋保险集团提供统计分析及商业智能服务，包括EDW和IDS平台，涵盖车险和产险两大应用，持续多年的数据治理服务。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--footer脚底-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 padding-left">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">产品</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12">
+                                <a href="product.html" class="block">客户端中间件</a>
+                                <a href="pro-operation-manage.html" class="block">运营管理系统</a>
+                                <a href="pro-fusion-media.html" class="block">融合媒资平台</a>
+                                <a href="pro-audio-vedio.html" class="block">视音频处理</a>
+                                <a href="pro-digital.html" class="block">数字营销分析</a>
+                            </div>
+                            <div class="col-sm-6 col-xs-6">
+                                <!--     <a href="#"class="block">关于我们</a>
+                                 <a href="#"class="block">友情连接</a>
+                                 <a href="#"class="block">友情连接</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">方案</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-5 col-xs-5">
+                                <a href="solution.html" class="block">新闻</a>
+                                <a href="solution-audio-vedio.html" class="block">视音频</a>
+                                <a href="solution-elec-publishing.html" class="block">电子出版</a>
+                                <a href="solution-inte-broadcast.html" class="block">集成播控</a>
+                                <a href="solution-business.html" class="block">商业智能</a>
+                            </div>
+                            <div class="col-sm-7 col-xs-7">
+                                <a href="solution-mar-promotion.html" class="block">营销推广</a>
+                                <a href="solution-online-education.html" class="block">在线教育</a>
+                                <a href="solution-multi-screen.html" class="block">多屏互动</a>
+                                <a href="solution-OTT.html" class="block">OTT应用发行</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">关于网达</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12">
+                                <a href="about-us.html" class="block ">公司简介</a>
+                                <a href="progress.html" class="block ">发展历程</a>
+                                <a href="news-consult.html" class="block ">新闻资讯</a>
+                                <a href="contact-us.html" class="block ">联系我们</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-2 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">加入我们</div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12">
+                                <a href="recruit.html" class="block ">社会招聘</a>
+                                <a href="school-recruit.html" class="block ">校园招聘</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 padding">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><img src="image/icon/Phone.png" style="opacity: 0.8; width: 25px; height: 25px;"></div>
+                        <div class="panel-body hidden-xs">
+                            <div class="col-sm-12 col-xs-12 white-space">
+                                <a href="#"class="block ">上海市浦东新区新金桥路27号13号楼</a>
+                                <a href="#"class="block ">电话：(+86)&nbsp;021-50301821</a>
+                                <a href="#"class="block ">传真：(+86)&nbsp;021-50301863</a>
+                                <a href="#"class="block ">邮编：201206</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color:#b5bdc7;padding:15px 0px;line-height:15px;">
+            <p class="text-center" >© 2009-2016 上海网达软件股份有限公司 版权所有 沪ICP备 10042738号-1</p>
+        </div>
+    </footer>
+<!--引入基本js文件-->
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<!--插件-->
+<script type="text/javascript" src="js/ac-analytics.js"></script>
+<script type="text/javascript" src="js/auto-init.js"></script>
+<script type="text/javascript" src="js/home.built.js"></script>
+    <!--header导航-->
+    <script type="text/javascript" src="js/index.js"></script>
+    <!--产品典型案例-->
+    <script type="text/javascript" src="js/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta name="description" content="网达软件——叁网融合应用软件的行业领跑者上海网达软件股份有限公司总部位于风景优美,办公环境一流的上海浦东金桥文化产业园OfficePark13号楼">
+    <meta name="keywords" content="网达软件,上海网达">
+    <meta name="Author" content="上海网达软件股份有限公司">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>上海网达软件股份有限公司</title>
+    <link href="image/icon/favicon.ico.jpg" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+     <link rel="stylesheet" type="text/css" href="css/home.built.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- <link rel="stylesheet" href="bootstrap/css/font-awesome.css" /> -->
+    <link rel="stylesheet" href="css/resolve.css" />
+    <link rel="stylesheet" href="css/about.css" />
+</head>
+<body>
+
+    <!--导航-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+                 <div class="container">
+                    <div class="row">
+                           <div class="col-sm-6 hidden-xs">
+                               <img src="image/logo-header.png">
+                           </div>
+                            <div class="col-sm-6 hidden-xs">
+                               <div class="row white-space">
+                                   <div class="col-sm-2"><a href="index.html">首页</a></div>
+                                   <div class="col-sm-2"><a href="product.html">产品</a></div>
+                                    <div class="col-sm-2"><!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                     发布服务<span class="caret"></span>
+                                   </a>
+                                   <ul class="dropdown-menu">
+                                     <li><a href="#">...</a></li>
+                                     <li><a href="#">...</a></li>
+                                     <li><a href="#">...</a></li>
+                                   </ul> -->
+                                   <a href="solution.html" class="nav-active">解决方案</a>
+                                   </div>
+                                   <div class="col-sm-2"><a href="service.html">服务</a></div>
+                                   <div class="col-sm-2"><a href="company-notice.html">投资者</a></div>
+                                   <div class="col-sm-2"><a href="about-us.html">关于网达</a></div>
+                              </div>
+                           </div>
+                                   <div class="col-xs-2 visible-xs relative">
+                                       <button class="absolute btn-nav btn"style="left:1px;top:2px;"> 
+                                          <span class="glyphicon glyphicon-menu-hamburger"style="font-size:25px;"></span>
+                                       </button>
+                                   </div>
+
+                                   <div class="col-xs-5 visible-xs col-xs-offset-2"style="padding:13px 0px;">
+                                        <img src="image/xs-logo.png">
+                                        <span class="font-700">网达软件</span>
+                                    </div>
+                             </div>
+                    </div>
+                 </div>
+           </nav>
+           <!--小屏幕显示下拉菜单-->
+               <div class="list-group display-none absolute animate hidden-sm hidden-md z-index"style="width:100%;height:248px;top:50px;">
+                     <a href="index.html" class="list-group-item">
+                      首页
+                     </a>
+                     <a href="product.html" class="list-group-item">产品</a>
+                     <a href="solution.html" class="list-group-item">解决方案</a>
+                     <a href="service.html" class="list-group-item">服务</a>
+                     <a href="company-notice.html" class="list-group-item">投资者</a>
+                     <a href="about-us.html" class="list-group-item ">关于网达</a>
+               </div>
+            <!--小屏幕结束-->
+
+    <!--滚动导航start-->
+    <div class="second-nav marg-top bg-color">
+        <nav id="ac-familybrowser" class="ac-familybrowser" data-analytics-region="family browser">
+            <div class="ac-familybrowser-wrapper">
+                <ul class="ac-familybrowser-items">
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution.html">
+                            <figure class=""><img src="image/icon/xw-select.svg" /></figure>
+                            <span class="ac-familybrowser-label font5 font-color-1">新闻</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-audio-vedio.html">
+                            <figure class=""><img src="image/icon/yinship.svg" /></figure>
+                            <span class="ac-familybrowser-label font5">音视频</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-elec-publishing.html">
+                            <figure class=""><img src="image/icon/cb.svg" /></figure>
+                            <span class="ac-familybrowser-label font5">电子出版</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-inte-broadcast.html">
+                            <figure class=""><img src="image/icon/bk.svg" /></figure>
+                            <span class="ac-familybrowser-label font5">集成播控</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-business.html">
+                            <figure class=""><img src="image/icon/sy.svg" /></figure>
+                            <span class="ac-familybrowser-label">商业智能</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-mar-promotion.html">
+                            <figure class=""><img src="image/icon/yx.svg" /></figure>
+                            <span class="ac-familybrowser-label">营销推广</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-online-education.html">
+                            <figure class=""><img src="image/icon/jy.svg" /></figure>
+                            <span class="ac-familybrowser-label">在线教育</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-multi-screen.html">
+                            <figure class=""><img src="image/icon/dp.svg" /></figure>
+                            <span class="ac-familybrowser-label">多屏互动</span>
+                        </a>
+                    </li>
+                    <li class="ac-familybrowser-item macbook">
+                        <a class="ac-familybrowser-link font5" href="solution-OTT.html">
+                            <figure class=""><img src="image/icon/OTT.svg" /></figure>
+                            <span class="ac-familybrowser-label">OTT应用发行</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="ac-familybrowser-paddles">
+                    <button class="ac-familybrowser-paddle-left" aria-hidden="true" disabled>
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                    </button>
+                    <button class="ac-familybrowser-paddle-right" aria-hidden="true" disabled>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--滚动导航end-->
+
+<div class="container main-content">
+    <section>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <div class="text-center"><img src="image/icon/xw-1.png" class="sec-nav-pic" />
+                    <h2 class="font1 text-center">新闻行业</h2></div>
+                    <p class="font4 botm-25" style="text-indent: 32px;">新媒体改变了人们获取信息的内容和方式，给纸媒带来了巨大冲击和机会。新闻媒体作为市场资讯的经济组织，抓住互联网，拓展新媒体模式，势在必得。网达软件新闻媒体方案通过平台能力及前端呈现，快速实现新闻移动端化、TV屏化、视音频化、本地化、互动化，是新闻媒体市场的先锋技术商。目前，已经成功建设了澎湃新闻、央视新闻、中国蓝等新闻媒体平台。</p>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-sm-12 top-botm text-center">
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info inclue-active">
+                        <a href="#section-advan" class="font3-active">领域优势</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info">
+                        <a href="#section-global" class="font3">系统架构</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info">
+                        <a href="#section-style" class="font3">方案特点</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 no-lr-padding">
+                    <div class="inclue-info">
+                        <a href="#section-cus" class="font3">客户青睐</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-advan">
+        <div class="row">
+            <div class="col-sm-12 font4 add-botm-xian li-left clearfix" style="height: auto;">
+            <h3 class="font2 botm-25">领先优势</h3>
+                <div class="col-sm-3 no-lr-padding">
+                    <div class="solution-advan solution-advan-bg1">
+                        <img src="image/icon/solution-tuding.png" />
+                        <ul class="clearfix">
+                            <li>移动端</li>
+                            <li>TV端</li>
+                            <li>PC端</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 no-lr-padding">
+                    <div class="solution-advan solution-advan-bg2">
+                        <img src="image/icon/solution-tuding.png" />
+                        <ul class="clearfix">
+                            <li>图文混合</li>
+                            <li>视频直播</li>
+                            <li>语音播报</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 no-lr-padding">
+                    <div class="solution-advan solution-advan-bg3">
+                        <img src="image/icon/solution-tuding.png" />
+                        <ul class="clearfix">
+                            <li>新闻本地化</li>
+                            <li>内容合作爬取</li>
+                            <li>频道订阅</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 no-lr-padding">
+                    <div class="solution-advan solution-advan-bg4">
+                        <img src="image/icon/solution-tuding.png" />
+                        <ul class="clearfix">
+                            <li>及时互动</li>
+                            <li>跟踪追问</li>
+                            <li>新闻追问</li>
+                        </ul>
+                    </div>
+                </div>
+            <!--<div class="col-sm-3 col-xs-6 text-center">
+               <div class="col-md-6 col-md-offset-3 col-xs-12">
+                   <div class="botm-10"><img src="image/exam-such.png" /></div>
+                   <ul class="" style="text-align: left;">
+                       <li style="width: 100%;">移动端</li>
+                       <li>TV端</li>
+                       <li>PC端</li>
+                   </ul>
+               </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <div class="botm-10"><img src="image/exam-such.png" /></div>
+                    <ul class="" style="text-align: left;">
+                        <li>图文混合</li>
+                        <li>视频直播</li>
+                        <li>语音播报</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center">
+                <div class="col-md-8 col-md-offset-2 col-xs-12" style="padding-right: 0;">
+                    <div class="botm-10"><img src="image/exam-such.png" /></div>
+                    <ul class="" style="text-align: left;">
+                        <li>新闻本地化</li>
+                        <li>内容合作爬取</li>
+                        <li>频道订阅</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <div class="botm-10"><img src="image/exam-such.png" /></div>
+                    <ul class="" style="text-align: left;">
+                        <li>及时互动</li>
+                        <li>跟踪追问</li>
+                        <li>新闻追问</li>
+                    </ul>
+                </div>
+            </div>-->
+        </div>
+        </div>
+    </section>
+    <section id="section-global">
+        <div class="row">
+              <div class="col-sm-12 font4 add-botm-xian">
+            <h3 class="font2 botm-25">系统架构</h3>
+            <p class="fun-lg"><img src="image/solution-news.png" class="img-responsive" /></p>
+        </div>
+        </div>
+    </section>
+    <section id="section-style">
+        <div class="row">
+            <div class="col-sm-12 font4 add-botm-xian">
+                <h3 class="font2 botm-25">方案特点</h3>
+                <div>
+                    <ul>
+                        <li>时效性：时效性是新闻的生命力，网络媒体则可以随时更新</li>
+                        <li>互动性：内容与读者互动、编辑与读者互动、读者与读者互动</li>
+                        <li>跟踪性：独创新闻跟踪、问吧、提问、追问、问答</li>
+                        <li>参与性：主编专栏模式、用户爆料模式、记者采风模式</li>
+                        <li>丰富性：内容展现丰富灵活、排版样式多样、内容与品牌同步</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section id="section-cus">
+        <div class="row custorm">
+            <div class="col-sm-12 font4">
+                <h3 class="font2 botm-25" style="text-align: left;">客户青睐</h3>
+                <div class="col-sm-2 col-xs-4">
+                    <div class="sns-icon">
+                        <img src="image/icon/pengpai.svg" />
+                        <h3 class="font4">澎湃</h3>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-4">
+                    <div class="sns-icon">
+                        <img src="image/icon/heshijie.svg" />
+                        <h3 class="font4">和世界</h3>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-4">
+                    <div class="sns-icon">
+                        <img src="image/exam-such.png" />
+                        <h3 class="font4">长江云</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>-->
+    <section id="section-cus">
+        <div class="row exam">
+            <div class="col-sm-12 font4">
+                <h3 class="font2 botm-25">客户青睐</h3>
+                <div class="col-sm-6 col-xs-12 no-lr-padding customer-favour">
+                    <div class="col-xs-3 no-lr-padding">
+                        <img src="image/icon/pp.svg"/>
+                    </div>
+                    <div class="col-xs-9" style="padding-left: 0;">
+                        <div class="">
+                            <h3>澎湃</h3>
+                            <p>澎湃新闻是专注时政与思想的媒体开放平台，主打时政新闻与思想分析，生产并聚合中文互联网世界中优质的时政思想类内容。同时，澎湃新闻结合互联网技术创新与新闻价值传承，致力于新闻追问功能与新闻跟踪功能的实践。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 customer-favour">
+                    <div class="col-xs-3">
+                        <img src="image/icon/hxw.svg"/>
+                    </div>
+                    <div class="col-xs-9">
+                        <div class="">
+                            <h3>和新闻</h3>
+                            <p>咪咕数媒为广大用户精心打造的新闻客户端应用，用户可以体验新型的语音播报功能、视频文字图片了解实时新闻等特色体验，还支持每个地区的独家报道，实用方便的聚合本地新闻资源。</p>
+                        </div>
+                    </div>
+                </div>
+               
+               
+
+            </div>
+        </div>
+    </section>
+</div>
+<!--footer脚底-->
+    <footer>
+           <div class="container">
+            <div class="row">
+              <div class="col-sm-2 padding-left">
+                   <div class="panel panel-default">
+                          <div class="panel-heading">产品</div>
+                          <div class="panel-body hidden-xs">
+                               <div class="col-sm-12 col-xs-12">
+                                <a href="product.html" class="block">客户端中间件</a>
+                                <a href="pro-operation-manage.html" class="block">运营管理系统</a>
+                                <a href="pro-fusion-media.html" class="block">融合媒资平台</a>
+                                <a href="pro-audio-vedio.html" class="block">音视频处理</a>
+                                <a href="pro-digital.html" class="block">数字营销分析</a>
+                               </div>
+                             <div class="col-sm-6 col-xs-6">
+                               <!--     <a href="#"class="block">关于我们</a>
+                                <a href="#"class="block">友情连接</a>
+                                <a href="#"class="block">友情连接</a> -->
+                               </div>
+                          </div>
+                        </div>
+              </div>
+              <div class="col-sm-3 padding">
+                   <div class="panel panel-default">
+                          <div class="panel-heading">解决方案</div>
+                          <div class="panel-body hidden-xs">
+                               <div class="col-sm-5 col-xs-5">
+                                   <a href="solution.html" class="block">新闻</a>
+                                   <a href="solution-audio-vedio.html" class="block">音视频</a>
+                                   <a href="solution-elec-publishing.html" class="block">电子出版</a>
+                                   <a href="solution-inte-broadcast.html" class="block">集成播控</a>
+                                   <a href="solution-business.html" class="block">商业智能</a>
+                               </div>
+                             <div class="col-sm-7 col-xs-7">
+                                  <a href="solution-mar-promotion.html" class="block">营销推广</a>
+                                  <a href="solution-online-education.html" class="block">在线教育</a>
+                                  <a href="solution-multi-screen.html" class="block">多屏互动</a>
+                                  <a href="solution-OTT.html" class="block">OTT应用发行</a>
+                             </div>
+                          </div>
+                   </div>
+              </div>
+              <div class="col-sm-2 padding">
+                 <div class="panel panel-default">
+                          <div class="panel-heading">关于网达</div>
+                           <div class="panel-body hidden-xs">
+                             <div class="col-sm-12 col-xs-12">
+                                 <a href="about-us.html" class="block ">公司简介</a>
+                                 <a href="progress.html" class="block ">发展历程</a>
+                                 <a href="#" class="block ">新闻资讯</a>
+                                 <a href="contact-us.html" class="block ">联系我们</a>
+                               </div>
+
+                          </div>
+                        </div>
+
+               </div>
+                    <div class="col-sm-2 padding">
+                         <div class="panel panel-default">
+                              <div class="panel-heading">加入我们</div>
+                               <div class="panel-body hidden-xs">
+                                 <div class="col-sm-12 col-xs-12">
+                                    <a href="recruit.html" class="block ">社会招聘</a>
+                                    <a href="school-recruit.html" class="block ">校园招聘</a>
+                                   </div>
+                              </div>
+                            </div>
+                     </div>
+
+                     <div class="col-sm-3 padding">
+                         <div class="panel panel-default">
+                              <div class="panel-heading">&nbsp;</div>
+                               <div class="panel-body hidden-xs">
+                                 <div class="col-sm-12 col-xs-12 white-space">
+                                     <a href="#"class="block ">上海市浦东新区金桥路27号13号楼3层</a>
+                                     <a href="#"class="block ">商务合作:marketing@wondertek.com.cn</a>
+                                     <a href="#"class="block ">销售合作:salesg@wondertek.com.cn</a>
+                                     <a href="#"class="block ">技术支持:support@wondertek.com.cn</a>
+                                   </div>
+                              </div>
+                            </div>
+                     </div>
+                  </div>
+           </div>
+           <div style="background-color:#b5bdc7;padding:15px 0px;line-height:15px;">    
+               <p class="text-center" >© 1998-2013 上海网达软件股份有限公司 版权所有 沪ICP备 10042738号-1</p>
+           </div>
+        </footer>
+<!--点击切换菜单-->
+<!--引入基本js文件-->
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<!--插件-->
+<script type="text/javascript" src="js/ac-analytics.js"></script>
+<script type="text/javascript" src="js/auto-init.js"></script>
+<script type="text/javascript" src="js/home.built.js"></script>
+    <!--header导航-->
+    <script type="text/javascript" src="js/index.js"></script>
+
+<script type="text/javascript">
+    $(".customer-favour .col-sm-9").css{}
+</script>
+</body>
+</html>

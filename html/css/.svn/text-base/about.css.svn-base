@@ -1,0 +1,31 @@
+.font6{color: #cecece; font-size: 16px;}
+.about-navbar{width: 100%; height: auto;}
+.list-honor{width: 100%; height: auto; overflow: hidden;}
+.list-honor ul li{line-height: 28px; color: #4A4A4A; font-size: 16px; margin-left: 15px;}
+.join-top-botm{padding-top: 0; padding-bottom: 20px;}
+
+@media screen and (max-width: 768px){
+    .about-navbar{width: 100%; height: auto; margin-bottom: 5px;}
+    .about-top-botm{padding-top: 15px; padding-bottom: 10px;}
+}
+
+@media screen and (min-width: 768px){
+    .list-honor ul li{line-height: 32px; color: #4A4A4A; font-size: 16px; margin-left: 15px;}
+    .about-navbar{margin-top: 15px; margin-bottom: 15px;}
+
+    /****距离下面元素的距离****/
+    .pad-top-botm{padding-top: 40px; padding-bottom: 10px;}
+    .join-top-botm{padding-top: 80px; padding-bottom: 80px;}
+}
+
+/****发展历程****/
+.left{padding-top:20px;}
+.left:after{content: "";width:10px;height: 10px;border-radius: 5px;background-color: #3399ff;position: absolute;right: -6px;top:25px;}
+.right{padding:20px 40px;}
+
+/****招聘****/
+.employe{width: 270px; height: auto; margin: 0 auto;}
+
+/****投资者****/
+.list-group{margin-bottom: 0;}
+.list-group-item{border: none; border-bottom: 1px solid #e6e6e6;}

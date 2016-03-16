@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="54px" height="50px" viewBox="0 0 54 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>中间件selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="中间件selected" sketch:type="MSLayerGroup">
+            <rect id="shape" fill="#3084CA" sketch:type="MSShapeGroup" x="16" y="0" width="38" height="50" rx="2"></rect>
+            <rect id="shape" fill="#A8DAFF" sketch:type="MSShapeGroup" x="17" y="3" width="36" height="41"></rect>
+            <rect id="shape" fill="#3084CA" sketch:type="MSShapeGroup" x="0" y="16" width="20" height="34" rx="2"></rect>
+            <rect id="shape" fill="#A8DAFF" sketch:type="MSShapeGroup" x="1" y="19" width="18" height="26"></rect>
+            <rect id="Rectangle-212" fill="#FFFFFF" sketch:type="MSShapeGroup" x="4" y="47" width="2" height="1"></rect>
+            <rect id="Rectangle-212" fill="#FFFFFF" sketch:type="MSShapeGroup" x="9" y="47" width="2" height="1"></rect>
+            <rect id="Rectangle-212" fill="#FFFFFF" sketch:type="MSShapeGroup" x="34" y="46" width="2" height="1"></rect>
+            <rect id="Rectangle-212" fill="#FFFFFF" sketch:type="MSShapeGroup" x="9" y="17" width="2" height="1"></rect>
+            <rect id="Rectangle-212" fill="#FFFFFF" sketch:type="MSShapeGroup" x="34" y="1" width="2" height="1"></rect>
+            <rect id="Rectangle-212" fill="#FFFFFF" sketch:type="MSShapeGroup" x="14" y="47" width="2" height="1"></rect>
+            <path d="M10,32 L35,15 L35,36 L10,32 Z" id="Path-112" stroke="#3084CA" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-5" stroke="#3084CA" stroke-linejoin="round" fill="#A8DAFF" sketch:type="MSShapeGroup" cx="10" cy="32" r="4"></circle>
+            <circle id="Oval-5" stroke="#3084CA" stroke-linejoin="round" fill="#A8DAFF" sketch:type="MSShapeGroup" cx="35" cy="15" r="4"></circle>
+            <circle id="Oval-5" stroke="#3084CA" stroke-linejoin="round" fill="#A8DAFF" sketch:type="MSShapeGroup" cx="35" cy="36" r="4"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>服务</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="image/icon/favicon.ico.jpg" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/server.css">
+     <link rel="stylesheet" type="text/css" href="css/fullPage.css">
+    <style>
+    h5,h3,h2,ul{padding:0px;margin:0px;}
+	h5{padding-bottom:5px;}
+	p{margin:0px;padding:0px;}
+    </style>
+</head>
+<body>
+
+	<!--小屏幕显示下拉菜单-->
+	    		<div class="list-group display-none absolute animate hidden-sm hidden-md z-index"style="width:100%;height:248px;">
+					  <a href="index.html" class="list-group-item">
+					   首页
+					  </a>
+					  <a href="product.html" class="list-group-item">产品</a>
+					  <a href="solution.html" class="list-group-item">解决方案</a>
+					  <a href="service.html" class="list-group-item">服务</a>
+					  <a href="company-notice.html" class="list-group-item">投资者</a>
+					  <a href="about-us.html" class="list-group-item ">关于网达</a>
+				</div>
+	<div id="dowebok">	
+		<!--导航-->
+	   <div class="section fp-auto-height">
+	   	<nav class="navbar navbar-default">
+				  <div class="container">
+				     <div class="row">
+					     	<div class="col-sm-6 hidden-xs">
+					     		<img src="image/logo-header.png">
+					     	</div>
+						     <div class="col-sm-6 hidden-xs">
+						     	<div class="row white-space">
+					        		<div class="col-sm-2"><a href="index.html">首页</a></div>
+					        		<div class="col-sm-2"><a href="product.html">产品</a></div>
+			                         <div class="col-sm-2"><!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								      发布服务<span class="caret"></span>
+								    </a>
+								    <ul class="dropdown-menu">
+								      <li><a href="#">...</a></li>
+								      <li><a href="#">...</a></li>
+								      <li><a href="#">...</a></li>
+								    </ul> -->
+								    <a href="solution.html">解决方案</a>
+									</div>
+					        		<div class="col-sm-2"><a href="service.html"class="nav-active">服务</a></div>
+					        		<div class="col-sm-2"><a href="company-notice.html">投资者</a></div>
+					        		<div class="col-sm-2"><a href="about-us.html">关于网达</a></div>
+					           </div>
+					        </div>
+									<div class="col-xs-2 visible-xs relative">
+							     		<button class="absolute btn-nav btn"style="left:1px;top:2px;background-color: #fff"> 
+					                       <span class="glyphicon glyphicon-menu-hamburger"style="font-size:25px;"></span>
+					                    </button>
+							     	</div>
+						      </div>
+				     </div>
+				  
+			</nav>
+		</div>
+	<!--首页内容-->
+		<!-- <div class="container-fluid"> -->
+		
+			<div class="section banner1">
+				<section class="linear"style="height:50%;color:#f2f2f2;">
+					<div class="text-center">
+						<div class="absolute"style="top:50px">
+						<h3 class="banner-div-h">针对移动互联的推广服务</h3>
+						<p style="line-height:30px;font-size:18px;">网达软件拥有丰富的手机APP推广案例，我们将根据手机APP软件类型和APP推广目标，为客户定制专业的手机APP推广方案，并通过优质的手机APP推广渠道资源有效执行，快速提升APP的知名度和下载量，树立手机APP的品牌形象，渠道资源包括不限于应用商店、软件下载站、浏览器渠道、活动渠道、运营商渠道，支持灵活的考核指标及结算方式。</p>
+						</div>
+					</div>
+				</section>
+
+				<div class="text-center relative">
+					<div class="absolute"style="top:50px">
+						<h3 class="banner-div-h">运营服务</h3>
+						<p style="line-height:30px;font-size:18px;">
+							网达软件具备一批经验丰富的运营团队，能够为客户提供日常运营及营销支撑服务。日常运营包括内容策划，数据分析、客户端业务播测、运营报告、用户投诉处理；营销支撑服务包括活动策划、活动页面设计、内容更新发布、应用更新、活动复盘分析。通过专业化的团队分工，包括策划、内容编辑、商务合作、美工、网页开发、渠道推广、品牌营销，以及完善的员工培训及管理机制，网达软件能够为客户提供数百人的驻场运营团队，帮助客户完成运营人力资源受限问题。
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="section banner2">
+				
+			</div> -->
+			<div class="section banner3">
+				<section class="linear"style="height:50%;color:#f2f2f2;">
+						<div class="text-center">
+							<div class="absolute"style="top:50px">
+								<h3 class="banner-div-h">咨询服务</h3>
+								<p style="line-height:30px;font-size:18px;">通过网达软件多年的融合媒体行业项目建设经验，向客户提供包括业务方向规划、市场竞争分析、项目预算、技术方案选择、项目建设周期、业务团队配置等多方面的咨询建议服务。通过派遣经验丰富的专家到现场服务，在与客户经过充分沟通和调研后，经过公司咨询团队分析讨论给出最后的定制化的、专业化的咨询报告，确保客户能够在市场环境下选择正确的方向，具备行业竞争优势地位。</p>
+								</div>
+						</div>
+				</section>
+				<div class="text-center relative">
+					<div class="absolute" style="top:50px">
+						<h3 class="banner-div-h">定制服务</h3>
+						<p style="line-height:30px;font-size:18px;">世界上没有两片完全相同的树叶，不同企业总有着不同的的经验理念，业务流程和组织架构，网达软件充分理解客户的个性化需求，提供在业务生产域，运营域 ，量身定制符合客户要求的软件，包括应用程序开发、Web软件开发、APP开发、微信平台开发。汲取通用软件的成熟技术，基于个性化需求的设计，量身定制为企业带来准确、便捷、实用、稳定的软件。</p>
+					</div>
+				</div>
+			</div>
+			<div class="section banner5">
+				<section class="linear"style="height:50%;">
+					<div class="text-center">
+						<div class="absolute" style="top:50px">
+							<h3 class="banner-div-h">运维服务</h3>
+							<p style="line-height:30px;font-size:18px;">网达软件利用各种IT运维工具，以确保IT基础设施和应用系统正常、安全高效、经济运行，包括:主机、存储、网络 等硬件设施到数据库、中间件、商务智能等基础软件设施施工；系统升级与数据迁移服务；系统监控服务；数据中心管理规划制订；存储系统备份服务。网达通过运维服务的有效管理提升用户IT基础设施的服务效率。</p>
+						</div>
+					</div>
+				</section>
+				<div class="text-center">
+					<div class="absolute" style="top:15%">
+						<!-- <h3 class="banner-div-h">面向集成实施的运维服务</h3>
+						<p style="line-height:30px;font-size:18px;">网达软件的推广服务整合了移动终端厂商以及多媒体业务运营商上下游的资源，通过优化资源配置来提高移动客户端的市场曝光度、知名度及用户覆盖率，实现客户的价值最大化。推广渠道有手机终端厂商、移动应用开发厂商、第三方网站社区、以及线下渠道。</p> -->
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+
+	<div class="section fp-auto-height">
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 padding-left">
+						<div class="panel panel-default">
+							<div class="panel-heading">产品</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="product.html" class="block">客户端中间件</a>
+									<a href="pro-operation-manage.html" class="block">运营管理系统</a>
+									<a href="pro-fusion-media.html" class="block">融合媒资平台</a>
+									<a href="pro-audio-vedio.html" class="block">音视频处理</a>
+									<a href="pro-digital.html" class="block">数字营销分析</a>
+								</div>
+								<div class="col-sm-6 col-xs-6">
+									<!--     <a href="#"class="block">关于我们</a>
+                                        <a href="#"class="block">友情连接</a>
+                                        <a href="#"class="block">友情连接</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">解决方案</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-5 col-xs-5">
+									<a href="solution.html" class="block">新闻</a>
+									<a href="solution-audio-vedio.html" class="block">音视频</a>
+									<a href="solution-elec-publishing.html" class="block">电子出版</a>
+									<a href="solution-inte-broadcast.html" class="block">集成播控</a>
+									<a href="solution-business.html" class="block">商业智能</a>
+								</div>
+								<div class="col-sm-7 col-xs-7">
+									<a href="solution-mar-promotion.html" class="block">营销推广</a>
+									<a href="solution-online-education.html" class="block">在线教育</a>
+									<a href="solution-multi-screen.html" class="block">多屏互动</a>
+									<a href="solution-OTT.html" class="block">OTT应用发行</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">关于网达</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="about-us.html" class="block ">公司简介</a>
+									<a href="about-us.html" class="block ">相关荣誉</a>
+									<a href="contact-us.html" class="block ">联系我们</a>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-2 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading">加入我们</div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12">
+									<a href="recruit.html" class="block ">社会招聘</a>
+									<a href="school-recruit.html" class="block ">校园招聘</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3 padding">
+						<div class="panel panel-default">
+							<div class="panel-heading"><!-- 400-400-1234 --></div>
+							<div class="panel-body hidden-xs">
+								<div class="col-sm-12 col-xs-12 white-space">
+									<a href="#"class="block ">上海市浦东新区金桥路27号13号楼3层</a>
+									<a href="#"class="block ">商务合作:marketing@wondertek.com.cn</a>
+									<a href="#"class="block ">销售合作:salesg@wondertek.com.cn</a>
+									<a href="#"class="block ">技术支持:support@wondertek.com.cn</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background-color:#b5bdc7;padding:15px 0px;line-height:15px;">
+				<p class="text-center" >© 1998-2013 上海网达软件股份有限公司 版权所有 沪ICP备 10042738号-1</p>
+			</div>
+		</footer>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/fullPage.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>\
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		navigation:true,
+		css3:true
+	});
+});
+</script>
+</html>
